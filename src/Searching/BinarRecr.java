@@ -12,7 +12,7 @@ public class BinarRecr {
         if (start>end){
             return -1;
         }
-        int mid = (start+end)/2;
+        int mid = start + (end-start)/2; //Losagu korle (start+end)/2 hoi
         if (arr[mid] < find){
             start=mid+1;
             return srarch(arr,start,end,find);

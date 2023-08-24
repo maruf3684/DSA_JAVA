@@ -9,12 +9,12 @@ public class Binar {
     public static int binary(int[] arr,int find){
         int start=0;
         int end= arr.length-1;
-        int mid = (start+end)/2;
+        int mid = start + (end-start)/2; //Losagu korle (start+end)/2 hoi
 
         while (start<=end){
             if (arr[mid] < find){
                 start=mid+1;
-                mid = (start+end)/2;
+                mid = (start+end)/2; //Same thing  start + (end-start)/2;
             }else if (arr[mid] > find){
                 end=mid-1;
                 mid = (start+end)/2;
