@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d0df1d-343c-4066-bb6c-a53f8b212f19" name="Changes" comment="oo">
-      <change afterPath="$PROJECT_DIR$/src/Arry/IntersectionArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arry/LiniarSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arry/MvZeroEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arry/RightRotate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arry/UnionArrOptimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arry/UnionArray.java" afterDir="false" />
+    <list default="true" id="42d0df1d-343c-4066-bb6c-a53f8b212f19" name="Changes" comment="2">
+      <change afterPath="$PROJECT_DIR$/src/Cursors/EnumerationCrsr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cursors/IteratorCrsr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cursors/ListIteratorCrsr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/Basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heap/Heap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arry/LeftRotateOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arry/LeftRotateOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +29,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2UEowJZwYxDvnLCJSL6zuEvDf0U" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,7 +48,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.IntersectionArrays">
+  <component name="RunManager" selected="Application.Basic">
+    <configuration name="Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heap.Basic" />
+      <module name="LearnJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IntersectionArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arry.IntersectionArrays" />
       <module name="LearnJava" />
@@ -60,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LiniarSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arry.LiniarSearch" />
+    <configuration name="IteratorCrsr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cursors.IteratorCrsr" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arry.*" />
+          <option name="PATTERN" value="Cursors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MvZeroEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arry.MvZeroEnd" />
+    <configuration name="ListIteratorCrsr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cursors.ListIteratorCrsr" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arry.*" />
+          <option name="PATTERN" value="Cursors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,26 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnionArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arry.UnionArray" />
-      <module name="LearnJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arry.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Basic" />
+        <item itemvalue="Application.ListIteratorCrsr" />
+        <item itemvalue="Application.IteratorCrsr" />
         <item itemvalue="Application.IntersectionArrays" />
         <item itemvalue="Application.UnionArrOptimal" />
-        <item itemvalue="Application.UnionArray" />
-        <item itemvalue="Application.LiniarSearch" />
-        <item itemvalue="Application.MvZeroEnd" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +136,8 @@
       <workItem from="1692851274167" duration="599000" />
       <workItem from="1692872910656" duration="21000" />
       <workItem from="1692886883777" duration="9458000" />
-      <workItem from="1692938238581" duration="7729000" />
+      <workItem from="1692938238581" duration="14329000" />
+      <workItem from="1695835078416" duration="4776000" />
     </task>
     <task id="LOCAL-00001" summary="oo">
       <option name="closed" value="true" />
@@ -144,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692887087239</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2">
+      <option name="closed" value="true" />
+      <created>1692948358180</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692948358180</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +163,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="oo" />
-    <option name="LAST_COMMIT_MESSAGE" value="oo" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
 </project>
