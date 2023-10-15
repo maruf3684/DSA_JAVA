@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 // find all subarray which sum = 3;
-public class SubarraySum17 {
+public class SubarraySum_17 {
     public static void main(String[] args) {
         brut();
         better();
