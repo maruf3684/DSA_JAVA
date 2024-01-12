@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42d0df1d-343c-4066-bb6c-a53f8b212f19" name="Changes" comment="new">
-      <change afterPath="$PROJECT_DIR$/src/Arry/KadanesAlgo_8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Searching/BinInRotatdSorted_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/EquelCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/TextJustification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arry/SetMatrixZero_14.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +64,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.KadanesAlgo_8">
+  <component name="RunManager" selected="Application.SetMatrixZero_14">
     <configuration name="BinInRotatdSorted_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Searching.BinInRotatdSorted_5" />
       <module name="LearnJava" />
@@ -109,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.Solution" />
+    <configuration name="SetMatrixZero_14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arry.SetMatrixZero_14" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String.*" />
+          <option name="PATTERN" value="Arry.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextJustification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.TextJustification" />
+    <configuration name="Spiral_16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arry.Spiral_16" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String.*" />
+          <option name="PATTERN" value="Arry.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetMatrixZero_14" />
+        <item itemvalue="Application.Spiral_16" />
         <item itemvalue="Application.KadanesAlgo_8" />
         <item itemvalue="Application.BinInRotatdSorted_5" />
         <item itemvalue="Application.EquelCheck" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.TextJustification" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +174,8 @@
       <workItem from="1698571728037" duration="90000" />
       <workItem from="1699624900737" duration="2811000" />
       <workItem from="1699813990211" duration="4386000" />
-      <workItem from="1702041436996" duration="3149000" />
+      <workItem from="1702041436996" duration="4648000" />
+      <workItem from="1705047926769" duration="10321000" />
     </task>
     <task id="LOCAL-00001" summary="oo">
       <option name="closed" value="true" />
@@ -213,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697396743069</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="new">
+      <option name="closed" value="true" />
+      <created>1702044965633</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702044965633</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,11 +232,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Arry/TwoSum_5.java</url>
-          <line>98</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Searching/BinInRotatdSorted_5.java</url>
           <line>12</line>
