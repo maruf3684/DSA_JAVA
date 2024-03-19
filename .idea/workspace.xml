@@ -5,9 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42d0df1d-343c-4066-bb6c-a53f8b212f19" name="Changes" comment="new">
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/FirstNegative.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/MaximumSumSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/MyGraph2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Trstmain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/More/Sorting/Bubble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/More/Sorting/Incertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/More/Sorting/Merge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/More/Sorting/Quick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/More/Sorting/Selection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThread/TestOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThread/TestTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/NextLargestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/PrevSmallerElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/StockSpan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -38,6 +55,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -49,29 +69,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/munna/Work/LearnJava&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Basic.executor": "Run",
+    "Application.Bubble.executor": "Run",
+    "Application.CheckSorted.executor": "Run",
+    "Application.Incertion.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Merge.executor": "Run",
+    "Application.MyGraph2 (1).executor": "Run",
+    "Application.MyGraph2 (2).executor": "Run",
+    "Application.MyGraph2 (3).executor": "Run",
+    "Application.MyGraph2 (4).executor": "Run",
+    "Application.MyGraph2 (5).executor": "Run",
+    "Application.MyGraph2.executor": "Run",
+    "Application.NextLargestElement.executor": "Run",
+    "Application.PrevLargeElement.executor": "Run",
+    "Application.Selection.executor": "Run",
+    "Application.StockSpan.executor": "Run",
+    "Application.TestOne.executor": "Run",
+    "Application.TestTwo.executor": "Run",
+    "Application.Trstmain.executor": "Run",
+    "Application.UndirectedGraph.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.preview.features.used": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/maruf/WORK/LearnJava",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.FirstNegative">
-    <configuration name="FirstNegative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindow.FirstNegative" />
+}]]></component>
+  <component name="RunManager" selected="Application.Merge">
+    <configuration name="Bubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="More.Sorting.Bubble" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SlidingWindow.*" />
+          <option name="PATTERN" value="More.Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KadanesAlgo_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arry.KadanesAlgo_8" />
+    <configuration name="Incertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="More.Sorting.Incertion" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arry.*" />
+          <option name="PATTERN" value="More.Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindow.MaximumSumSubArray" />
+    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="More.Sorting.Merge" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SlidingWindow.*" />
+          <option name="PATTERN" value="More.Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +152,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetMatrixZero_14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arry.SetMatrixZero_14" />
+    <configuration name="MyGraph2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyGraph2" />
+      <module name="LearnJava" />
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="More.Sorting.Selection" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arry.*" />
+          <option name="PATTERN" value="More.Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Spiral_16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arry.Spiral_16" />
+    <configuration name="UndirectedGraph" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Graph.UndirectedGraph" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Arry.*" />
+          <option name="PATTERN" value="Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,13 +186,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.UndirectedGraph" />
+      <item itemvalue="Application.Bubble" />
+      <item itemvalue="Application.Incertion" />
+      <item itemvalue="Application.Merge" />
+      <item itemvalue="Application.Selection" />
+      <item itemvalue="Application.MyGraph2" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FirstNegative" />
-        <item itemvalue="Application.MaximumSumSubArray" />
-        <item itemvalue="Application.SetMatrixZero_14" />
-        <item itemvalue="Application.Spiral_16" />
-        <item itemvalue="Application.KadanesAlgo_8" />
+        <item itemvalue="Application.Merge" />
+        <item itemvalue="Application.Incertion" />
+        <item itemvalue="Application.Bubble" />
+        <item itemvalue="Application.Selection" />
+        <item itemvalue="Application.MyGraph2" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +240,23 @@
       <workItem from="1699813990211" duration="4386000" />
       <workItem from="1702041436996" duration="4648000" />
       <workItem from="1705047926769" duration="16690000" />
+      <workItem from="1707586658207" duration="2847000" />
+      <workItem from="1707843609706" duration="6437000" />
+      <workItem from="1708011318717" duration="12000" />
+      <workItem from="1708189876128" duration="10104000" />
+      <workItem from="1708527584778" duration="6552000" />
+      <workItem from="1708541308636" duration="4000" />
+      <workItem from="1708704154310" duration="3848000" />
+      <workItem from="1709487921802" duration="3179000" />
+      <workItem from="1709495041865" duration="89000" />
+      <workItem from="1709495141148" duration="284000" />
+      <workItem from="1709495435091" duration="265000" />
+      <workItem from="1709495708928" duration="4648000" />
+      <workItem from="1709662335264" duration="1676000" />
+      <workItem from="1709880070543" duration="4000" />
+      <workItem from="1710258793163" duration="38000" />
+      <workItem from="1710797413418" duration="1425000" />
+      <workItem from="1710871873612" duration="11060000" />
     </task>
     <task id="LOCAL-00001" summary="oo">
       <option name="closed" value="true" />
@@ -231,6 +311,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="oo" />
