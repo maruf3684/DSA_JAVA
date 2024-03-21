@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d0df1d-343c-4066-bb6c-a53f8b212f19" name="Changes" comment="new array">
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/FindMissingFromArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/Array/CheckSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/CheckSorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/Array/Intersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Intersection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/Array/LeftRotate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/LeftRotate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/Array/MoveZeroEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/MoveZeroEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/Array/RemoveDuplicteFromSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/RemoveDuplicteFromSorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/Array/SecondLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/SecondLargest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/Array/Union.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Union.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/Sorting/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Sorting/Bubble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/Sorting/Incertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Sorting/Incertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/Sorting/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Sorting/Merge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/Sorting/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Sorting/Quick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/More/Sorting/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Sorting/Selection.java" afterDir="false" />
-    </list>
+    <list default="true" id="42d0df1d-343c-4066-bb6c-a53f8b212f19" name="Changes" comment="new array" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -270,7 +255,7 @@
       <workItem from="1710871873612" duration="11060000" />
       <workItem from="1710889638651" duration="864000" />
       <workItem from="1710939656288" duration="2489000" />
-      <workItem from="1711046432517" duration="5334000" />
+      <workItem from="1711046432517" duration="5421000" />
     </task>
     <task id="LOCAL-00001" summary="oo">
       <option name="closed" value="true" />
@@ -336,7 +321,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711049609850</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="new array">
+      <option name="closed" value="true" />
+      <created>1711051848271</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711051848271</updated>
+    </task>
+    <task id="LOCAL-00010" summary="new array">
+      <option name="closed" value="true" />
+      <created>1711051860314</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711051860314</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
