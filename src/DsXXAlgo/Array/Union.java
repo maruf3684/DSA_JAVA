@@ -1,4 +1,4 @@
-package More.Array;
+package DsXXAlgo.Array;
 
 import java.util.ArrayList;
 import java.util.List;

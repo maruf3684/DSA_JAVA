@@ -1,4 +1,4 @@
-package More.Sorting;
+package DsXXAlgo.Sorting;
 //note: select pivot and put it its correct place
 
 import java.util.Arrays;

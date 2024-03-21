@@ -1,4 +1,4 @@
-package More.Sorting;
+package DsXXAlgo.Sorting;
 
 import java.util.ArrayList;
 import java.util.Arrays;
