@@ -4,25 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d0df1d-343c-4066-bb6c-a53f8b212f19" name="Changes" comment="new">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/MyGraph2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graph/Trstmain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/More/Sorting/Bubble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/More/Sorting/Incertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/More/Sorting/Merge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/More/Sorting/Quick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/More/Sorting/Selection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiThread/TestOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiThread/TestTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/NextLargestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/PrevSmallerElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack/StockSpan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="42d0df1d-343c-4066-bb6c-a53f8b212f19" name="Changes" comment="new sort">
+      <change afterPath="$PROJECT_DIR$/src/More/Array/Intersection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/More/Array/Union.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/More/Sorting/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/More/Sorting/Quick.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +61,7 @@
     "Application.Bubble.executor": "Run",
     "Application.CheckSorted.executor": "Run",
     "Application.Incertion.executor": "Run",
+    "Application.Intersection.executor": "Run",
     "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Merge.executor": "Run",
@@ -86,12 +73,14 @@
     "Application.MyGraph2.executor": "Run",
     "Application.NextLargestElement.executor": "Run",
     "Application.PrevLargeElement.executor": "Run",
+    "Application.Quick.executor": "Debug",
     "Application.Selection.executor": "Run",
     "Application.StockSpan.executor": "Run",
     "Application.TestOne.executor": "Run",
     "Application.TestTwo.executor": "Run",
     "Application.Trstmain.executor": "Run",
     "Application.UndirectedGraph.executor": "Run",
+    "Application.Union.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -112,13 +101,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Merge">
-    <configuration name="Bubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="More.Sorting.Bubble" />
+  <component name="RunManager" selected="Application.LeftRotate">
+    <configuration name="CheckSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="More.Array.CheckSorted" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="More.Sorting.*" />
+          <option name="PATTERN" value="More.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Incertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="More.Sorting.Incertion" />
+    <configuration name="Intersection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="More.Array.Intersection" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="More.Sorting.*" />
+          <option name="PATTERN" value="More.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="More.Sorting.Merge" />
+    <configuration name="LeftRotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="More.Array.LeftRotate" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="More.Sorting.*" />
+          <option name="PATTERN" value="More.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,16 +141,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyGraph2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyGraph2" />
-      <module name="LearnJava" />
-      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Selection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="More.Sorting.Selection" />
+    <configuration name="Quick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="More.Sorting.Quick" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
@@ -186,21 +167,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Union" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="More.Array.Union" />
+      <module name="LearnJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="More.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.UndirectedGraph" />
-      <item itemvalue="Application.Bubble" />
-      <item itemvalue="Application.Incertion" />
-      <item itemvalue="Application.Merge" />
-      <item itemvalue="Application.Selection" />
-      <item itemvalue="Application.MyGraph2" />
+      <item itemvalue="Application.CheckSorted" />
+      <item itemvalue="Application.Intersection" />
+      <item itemvalue="Application.LeftRotate" />
+      <item itemvalue="Application.Union" />
+      <item itemvalue="Application.Quick" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Merge" />
-        <item itemvalue="Application.Incertion" />
-        <item itemvalue="Application.Bubble" />
-        <item itemvalue="Application.Selection" />
-        <item itemvalue="Application.MyGraph2" />
+        <item itemvalue="Application.LeftRotate" />
+        <item itemvalue="Application.CheckSorted" />
+        <item itemvalue="Application.Intersection" />
+        <item itemvalue="Application.Union" />
+        <item itemvalue="Application.Quick" />
       </list>
     </recent_temporary>
   </component>
@@ -257,6 +251,9 @@
       <workItem from="1710258793163" duration="38000" />
       <workItem from="1710797413418" duration="1425000" />
       <workItem from="1710871873612" duration="11060000" />
+      <workItem from="1710889638651" duration="864000" />
+      <workItem from="1710939656288" duration="2489000" />
+      <workItem from="1711046432517" duration="2963000" />
     </task>
     <task id="LOCAL-00001" summary="oo">
       <option name="closed" value="true" />
@@ -306,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705076428393</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new sort">
+      <option name="closed" value="true" />
+      <created>1710889668981</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710889668981</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +332,8 @@
     <MESSAGE value="oo" />
     <MESSAGE value="2" />
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="new sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="new sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
