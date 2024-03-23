@@ -1,4 +1,4 @@
-package DsXXAlgo.Array;
+package DsXXAlgo.Array.Easy;
 
 public class CheckSorted {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package DsXXAlgo.Array;
+package DsXXAlgo.Array.Easy;
 
 import java.util.Arrays;
 
