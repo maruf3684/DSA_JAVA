@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d0df1d-343c-4066-bb6c-a53f8b212f19" name="Changes" comment="new array 2">
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/LongestSubarrayPositiveOnly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/LongestSubarrayWithNegative.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/TwoSome.java" afterDir="false" />
+    <list default="true" id="42d0df1d-343c-4066-bb6c-a53f8b212f19" name="Changes" comment="new array 3">
+      <change afterPath="$PROJECT_DIR$/src/Advanced/Stream/FindEvenFromStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Advanced/Stream/MapFunExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/MejorityEliments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/SortColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/StockBuySell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/SubArrayWithLargestSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/SubArrayWithLargestSum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/confusion/StaticCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/CheckSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/CheckSorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/FindMissingFromArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/FindMissingFromArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/FindNumberAppearOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/FindNumberAppearOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Intersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/Intersection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/LeftRotate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/LeftRotate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/MaxConsecutiveOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/MaxConsecutiveOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/MoveZeroEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/MoveZeroEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/RemoveDuplicteFromSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/RemoveDuplicteFromSorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/SecondLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/SecondLargest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Union.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/Union.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +65,7 @@
     "Application.Basic.executor": "Run",
     "Application.Bubble.executor": "Run",
     "Application.CheckSorted.executor": "Run",
+    "Application.FindEvenFromStream.executor": "Run",
     "Application.FindMissingFromArray.executor": "Run",
     "Application.FindNumberAppearOne.executor": "Run",
     "Application.Incertion.executor": "Run",
@@ -80,7 +76,9 @@
     "Application.LongestSubarrayWithNegative.executor": "Run",
     "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MapFunExample.executor": "Run",
     "Application.MaxConsecutiveOne.executor": "Run",
+    "Application.MejorityEliments.executor": "Run",
     "Application.Merge.executor": "Run",
     "Application.MyGraph2 (1).executor": "Run",
     "Application.MyGraph2 (2).executor": "Run",
@@ -92,7 +90,13 @@
     "Application.PrevLargeElement.executor": "Run",
     "Application.Quick.executor": "Debug",
     "Application.Selection.executor": "Run",
+    "Application.SortColors.executor": "Run",
+    "Application.StaticCheck (1).executor": "Run",
+    "Application.StaticCheck.executor": "Run",
+    "Application.StockBuySell.executor": "Run",
     "Application.StockSpan.executor": "Run",
+    "Application.SubArrayWithLargestSum.executor": "Run",
+    "Application.SubArrayWithLargestSum2.executor": "Run",
     "Application.TestOne.executor": "Run",
     "Application.TestTwo.executor": "Run",
     "Application.Trstmain.executor": "Run",
@@ -124,13 +128,13 @@
       <recent name="$PROJECT_DIR$/src/More/Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoSome">
-    <configuration name="FindNumberAppearOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Array.Easy.FindNumberAppearOne" />
+  <component name="RunManager" selected="Application.StockBuySell">
+    <configuration name="MejorityEliments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Array.Mid.MejorityEliments" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DsXXAlgo.Array.Easy.*" />
+          <option name="PATTERN" value="DsXXAlgo.Array.Mid.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubarrayPositiveOnly" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Array.Easy.LongestSubarrayPositiveOnly" />
+    <configuration name="SortColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Array.Mid.SortColors" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DsXXAlgo.Array.Easy.*" />
+          <option name="PATTERN" value="DsXXAlgo.Array.Mid.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubarrayWithNegative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Array.Easy.LongestSubarrayWithNegative" />
+    <configuration name="StockBuySell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Array.Mid.StockBuySell" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DsXXAlgo.Array.Easy.*" />
+          <option name="PATTERN" value="DsXXAlgo.Array.Mid.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxConsecutiveOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Array.Easy.MaxConsecutiveOne" />
+    <configuration name="SubArrayWithLargestSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Array.Mid.SubArrayWithLargestSum" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DsXXAlgo.Array.Easy.*" />
+          <option name="PATTERN" value="DsXXAlgo.Array.Mid.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,8 +181,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Array.Mid.TwoSome" />
+    <configuration name="SubArrayWithLargestSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Array.Mid.SubArrayWithLargestSum2" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
@@ -205,19 +209,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.UndirectedGraph" />
-      <item itemvalue="Application.LongestSubarrayPositiveOnly" />
-      <item itemvalue="Application.LongestSubarrayWithNegative" />
-      <item itemvalue="Application.TwoSome" />
-      <item itemvalue="Application.FindNumberAppearOne" />
-      <item itemvalue="Application.MaxConsecutiveOne" />
+      <item itemvalue="Application.MejorityEliments" />
+      <item itemvalue="Application.SortColors" />
+      <item itemvalue="Application.StockBuySell" />
+      <item itemvalue="Application.SubArrayWithLargestSum" />
+      <item itemvalue="Application.SubArrayWithLargestSum2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TwoSome" />
-        <item itemvalue="Application.LongestSubarrayPositiveOnly" />
-        <item itemvalue="Application.LongestSubarrayWithNegative" />
-        <item itemvalue="Application.MaxConsecutiveOne" />
-        <item itemvalue="Application.FindNumberAppearOne" />
+        <item itemvalue="Application.StockBuySell" />
+        <item itemvalue="Application.SubArrayWithLargestSum2" />
+        <item itemvalue="Application.SubArrayWithLargestSum" />
+        <item itemvalue="Application.MejorityEliments" />
+        <item itemvalue="Application.SortColors" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +283,10 @@
       <workItem from="1711046432517" duration="5421000" />
       <workItem from="1711051877628" duration="23000" />
       <workItem from="1711051911716" duration="1653000" />
-      <workItem from="1711205679236" duration="10231000" />
+      <workItem from="1711205679236" duration="10749000" />
+      <workItem from="1711225784371" duration="2576000" />
+      <workItem from="1711235972130" duration="412000" />
+      <workItem from="1711293731207" duration="8151000" />
     </task>
     <task id="LOCAL-00001" summary="oo">
       <option name="closed" value="true" />
@@ -377,7 +384,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711053461844</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="new array 3">
+      <option name="closed" value="true" />
+      <created>1711217073124</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711217073124</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +416,8 @@
     <MESSAGE value="new sort" />
     <MESSAGE value="new array" />
     <MESSAGE value="new array 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="new array 2" />
+    <MESSAGE value="new array 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="new array 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
