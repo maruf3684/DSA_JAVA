@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d0df1d-343c-4066-bb6c-a53f8b212f19" name="Changes" comment="new array 7">
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Hard/AllSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Hard/CountAllSubArrWithGivnSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Hard/FourSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Hard/LargestSubArrWithZeroSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/CountSubArrWithSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/CountSubArrWithSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/note.txt" afterDir="false" />
-    </list>
+    <list default="true" id="42d0df1d-343c-4066-bb6c-a53f8b212f19" name="Changes" comment="new array 8" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -309,7 +300,7 @@
       <workItem from="1711555880304" duration="9823000" />
       <workItem from="1711651813385" duration="10792000" />
       <workItem from="1711738303963" duration="15301000" />
-      <workItem from="1711753651702" duration="795000" />
+      <workItem from="1711753651702" duration="1628000" />
     </task>
     <task id="LOCAL-00001" summary="oo">
       <option name="closed" value="true" />
@@ -447,7 +438,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711662386961</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="new array 8">
+      <option name="closed" value="true" />
+      <created>1711755367566</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1711755367566</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,7 +475,8 @@
     <MESSAGE value="new array 5" />
     <MESSAGE value="new array 6" />
     <MESSAGE value="new array 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="new array 7" />
+    <MESSAGE value="new array 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="new array 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -510,11 +510,6 @@
           <url>file://$PROJECT_DIR$/src/DsXXAlgo/Array/Hard/LargestSubArrWithZeroSum.java</url>
           <line>41</line>
           <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DsXXAlgo/Array/Hard/CountAllSubArrWithGivnSum.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
