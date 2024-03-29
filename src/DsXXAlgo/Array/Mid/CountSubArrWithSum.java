@@ -6,8 +6,9 @@ import java.util.Map;
 public class CountSubArrWithSum {
     public static void main(String[] args) {
         //int[] nums = {1,2,1,1,1,1,3};
-        int[] nums = {1,2,3};
-        int k = 3;
+        //int[] nums = {1,-1,0};
+        int[] nums = {5,-5,5,0};
+        int k = 5;
 
         Map<Integer,Integer> map = new HashMap<>();
         map.put(0,1);
@@ -17,6 +18,7 @@ public class CountSubArrWithSum {
 
         while(start<nums.length){
             sum = sum + nums[start];
+
             if(map.containsKey(sum-k)){
                 count+=map.get(sum-k);
             }
