@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d0df1d-343c-4066-bb6c-a53f8b212f19" name="Changes" comment="new array 8" />
+    <list default="true" id="42d0df1d-343c-4066-bb6c-a53f8b212f19" name="Changes" comment="new array 8">
+      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Hard/MisssingMeasingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/DP/ClimbingStars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/DP/FrogJump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Patern/Wpatern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,99 +56,102 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AllSubarray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Basic.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Bubble.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CheckSorted.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountAllSubArrWithGivnSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountSubArrWithSum.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FindEvenFromStream.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindMissingFromArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindNumberAppearOne.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FourSum.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Incertion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Intersection.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LargestSubArrWithZeroSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeadersInArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeftRotate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestSubarray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestSubarrayPositiveOnly.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestSubarrayWithNegative.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MajorityElement2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapFunExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxConsecutiveOne.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MejorityEliments.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Merge.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyGraph2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyGraph2 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyGraph2 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyGraph2 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyGraph2 (5).executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyGraph2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NextLargestElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NextPermutation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PascalTriangle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrevLargeElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Quick.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RearrangeBySign.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RearrangeBySign2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReplaceWithLeader.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RotateMatrix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Selection.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SetMatrixZero.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SetMatrixZeroBetter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortColors.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StaticCheck (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.StaticCheck.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StockBuySell.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StockSpan.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SubArrayWithLargestSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SubArrayWithLargestSum2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestOne.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestTwo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreeSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Trstmain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoSome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UndirectedGraph.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Union.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;java.suggest.annotation.dependency&quot;: &quot;false&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/maruf/WORK/JAVA/LearnJava&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AllSubarray.executor": "Run",
+    "Application.Basic.executor": "Debug",
+    "Application.Bubble.executor": "Run",
+    "Application.CheckSorted.executor": "Run",
+    "Application.ClimbingStars.executor": "Run",
+    "Application.CountAllSubArrWithGivnSum.executor": "Run",
+    "Application.CountSubArrWithSum.executor": "Debug",
+    "Application.FindEvenFromStream.executor": "Run",
+    "Application.FindMissingFromArray.executor": "Run",
+    "Application.FindNumberAppearOne.executor": "Run",
+    "Application.FourSum.executor": "Debug",
+    "Application.FrogJump.executor": "Run",
+    "Application.Incertion.executor": "Run",
+    "Application.Intersection.executor": "Run",
+    "Application.LargestSubArrWithZeroSum.executor": "Run",
+    "Application.LeadersInArray.executor": "Run",
+    "Application.LeftRotate.executor": "Run",
+    "Application.LongestSubarray.executor": "Run",
+    "Application.LongestSubarrayPositiveOnly.executor": "Run",
+    "Application.LongestSubarrayWithNegative.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MajorityElement2.executor": "Run",
+    "Application.MapFunExample.executor": "Run",
+    "Application.MaxConsecutiveOne.executor": "Run",
+    "Application.MejorityEliments.executor": "Run",
+    "Application.Merge.executor": "Run",
+    "Application.MyGraph2 (1).executor": "Run",
+    "Application.MyGraph2 (2).executor": "Run",
+    "Application.MyGraph2 (3).executor": "Run",
+    "Application.MyGraph2 (4).executor": "Run",
+    "Application.MyGraph2 (5).executor": "Run",
+    "Application.MyGraph2.executor": "Run",
+    "Application.NextLargestElement.executor": "Run",
+    "Application.NextPermutation.executor": "Run",
+    "Application.PascalTriangle.executor": "Run",
+    "Application.PrevLargeElement.executor": "Run",
+    "Application.Quick.executor": "Debug",
+    "Application.RearrangeBySign.executor": "Run",
+    "Application.RearrangeBySign2.executor": "Run",
+    "Application.ReplaceWithLeader.executor": "Run",
+    "Application.RotateMatrix.executor": "Run",
+    "Application.Selection.executor": "Run",
+    "Application.SetMatrixZero.executor": "Run",
+    "Application.SetMatrixZeroBetter.executor": "Run",
+    "Application.SortColors.executor": "Run",
+    "Application.StaticCheck (1).executor": "Run",
+    "Application.StaticCheck.executor": "Run",
+    "Application.StockBuySell.executor": "Run",
+    "Application.StockSpan.executor": "Run",
+    "Application.SubArrayWithLargestSum.executor": "Run",
+    "Application.SubArrayWithLargestSum2.executor": "Run",
+    "Application.Sum.executor": "Run",
+    "Application.TestOne.executor": "Run",
+    "Application.TestTwo.executor": "Run",
+    "Application.ThreeSum.executor": "Run",
+    "Application.Trstmain.executor": "Run",
+    "Application.TwoSome.executor": "Run",
+    "Application.UndirectedGraph.executor": "Run",
+    "Application.Union.executor": "Run",
+    "Application.Wpatern.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.preview.features.used": "true",
+    "java.suggest.annotation.dependency": "false",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/maruf/WORK/JAVA/LearnJava",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/More/Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountAllSubArrWithGivnSum">
-    <configuration name="AllSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Array.Hard.AllSubarray" />
+  <component name="RunManager" selected="Application.Wpatern">
+    <configuration name="ClimbingStars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.DP.ClimbingStars" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DsXXAlgo.Array.Hard.*" />
+          <option name="PATTERN" value="DsXXAlgo.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,25 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestSubArrWithZeroSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Array.Hard.LargestSubArrWithZeroSum" />
+    <configuration name="FrogJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.DP.FrogJump" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DsXXAlgo.Array.Hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Sum" />
-      <module name="LearnJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="DsXXAlgo.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,21 +211,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Wpatern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Patern.Wpatern" />
+      <module name="LearnJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DsXXAlgo.Patern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.UndirectedGraph" />
-      <item itemvalue="Application.AllSubarray" />
+      <item itemvalue="Application.Wpatern" />
+      <item itemvalue="Application.ClimbingStars" />
       <item itemvalue="Application.CountAllSubArrWithGivnSum" />
-      <item itemvalue="Application.LargestSubArrWithZeroSum" />
-      <item itemvalue="Application.Sum" />
       <item itemvalue="Application.CountSubArrWithSum" />
+      <item itemvalue="Application.FrogJump" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Wpatern" />
+        <item itemvalue="Application.FrogJump" />
+        <item itemvalue="Application.ClimbingStars" />
         <item itemvalue="Application.CountAllSubArrWithGivnSum" />
         <item itemvalue="Application.CountSubArrWithSum" />
-        <item itemvalue="Application.LargestSubArrWithZeroSum" />
-        <item itemvalue="Application.AllSubarray" />
-        <item itemvalue="Application.Sum" />
       </list>
     </recent_temporary>
   </component>
@@ -301,6 +310,11 @@
       <workItem from="1711651813385" duration="10792000" />
       <workItem from="1711738303963" duration="15301000" />
       <workItem from="1711753651702" duration="1628000" />
+      <workItem from="1711755460740" duration="32000" />
+      <workItem from="1713463362247" duration="24000" />
+      <workItem from="1714746040397" duration="3758000" />
+      <workItem from="1715614803159" duration="10748000" />
+      <workItem from="1716371042442" duration="2905000" />
     </task>
     <task id="LOCAL-00001" summary="oo">
       <option name="closed" value="true" />
@@ -446,7 +460,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711755367566</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="new array 8">
+      <option name="closed" value="true" />
+      <created>1711755477013</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1711755477013</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
