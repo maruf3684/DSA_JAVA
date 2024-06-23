@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42d0df1d-343c-4066-bb6c-a53f8b212f19" name="Changes" comment="new array 8">
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Array/Hard/MisssingMeasingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/DP/ClimbingStars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/DP/FrogJump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Patern/Wpatern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/BinarySearch/OccurenceOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/BinarySearch/OccurenceOfNumber2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Greedy/Easy/Cookies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Greedy/Easy/ValidParen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/LinkedList/Mid/Cycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/string/PalinDrom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +45,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -63,8 +65,10 @@
     "Application.Bubble.executor": "Run",
     "Application.CheckSorted.executor": "Run",
     "Application.ClimbingStars.executor": "Run",
+    "Application.Cookies.executor": "Run",
     "Application.CountAllSubArrWithGivnSum.executor": "Run",
     "Application.CountSubArrWithSum.executor": "Debug",
+    "Application.Cycle.executor": "Run",
     "Application.FindEvenFromStream.executor": "Run",
     "Application.FindMissingFromArray.executor": "Run",
     "Application.FindNumberAppearOne.executor": "Run",
@@ -93,6 +97,8 @@
     "Application.MyGraph2.executor": "Run",
     "Application.NextLargestElement.executor": "Run",
     "Application.NextPermutation.executor": "Run",
+    "Application.OccurenceOfNumber.executor": "Run",
+    "Application.PalinDrom.executor": "Run",
     "Application.PascalTriangle.executor": "Run",
     "Application.PrevLargeElement.executor": "Run",
     "Application.Quick.executor": "Debug",
@@ -118,6 +124,7 @@
     "Application.TwoSome.executor": "Run",
     "Application.UndirectedGraph.executor": "Run",
     "Application.Union.executor": "Run",
+    "Application.ValidParen.executor": "Run",
     "Application.Wpatern.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -145,13 +152,13 @@
       <recent name="$PROJECT_DIR$/src/More/Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Wpatern">
-    <configuration name="ClimbingStars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.DP.ClimbingStars" />
+  <component name="RunManager" selected="Application.PalinDrom">
+    <configuration name="Cookies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Greedy.Easy.Cookies" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DsXXAlgo.DP.*" />
+          <option name="PATTERN" value="DsXXAlgo.Greedy.Easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountAllSubArrWithGivnSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Array.Hard.CountAllSubArrWithGivnSum" />
+    <configuration name="Cycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.LinkedList.Mid.Cycle" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DsXXAlgo.Array.Hard.*" />
+          <option name="PATTERN" value="DsXXAlgo.LinkedList.Mid.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountSubArrWithSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Array.Mid.CountSubArrWithSum" />
+    <configuration name="OccurenceOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.BinarySearch.OccurenceOfNumber" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DsXXAlgo.Array.Mid.*" />
+          <option name="PATTERN" value="DsXXAlgo.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrogJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.DP.FrogJump" />
+    <configuration name="PalinDrom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.string.PalinDrom" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DsXXAlgo.DP.*" />
+          <option name="PATTERN" value="DsXXAlgo.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,12 +218,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Wpatern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Patern.Wpatern" />
+    <configuration name="ValidParen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Greedy.Easy.ValidParen" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DsXXAlgo.Patern.*" />
+          <option name="PATTERN" value="DsXXAlgo.Greedy.Easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,19 +233,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.UndirectedGraph" />
-      <item itemvalue="Application.Wpatern" />
-      <item itemvalue="Application.ClimbingStars" />
-      <item itemvalue="Application.CountAllSubArrWithGivnSum" />
-      <item itemvalue="Application.CountSubArrWithSum" />
-      <item itemvalue="Application.FrogJump" />
+      <item itemvalue="Application.PalinDrom" />
+      <item itemvalue="Application.OccurenceOfNumber" />
+      <item itemvalue="Application.Cookies" />
+      <item itemvalue="Application.Cycle" />
+      <item itemvalue="Application.ValidParen" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Wpatern" />
-        <item itemvalue="Application.FrogJump" />
-        <item itemvalue="Application.ClimbingStars" />
-        <item itemvalue="Application.CountAllSubArrWithGivnSum" />
-        <item itemvalue="Application.CountSubArrWithSum" />
+        <item itemvalue="Application.PalinDrom" />
+        <item itemvalue="Application.OccurenceOfNumber" />
+        <item itemvalue="Application.ValidParen" />
+        <item itemvalue="Application.Cookies" />
+        <item itemvalue="Application.Cycle" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +321,11 @@
       <workItem from="1713463362247" duration="24000" />
       <workItem from="1714746040397" duration="3758000" />
       <workItem from="1715614803159" duration="10748000" />
-      <workItem from="1716371042442" duration="2905000" />
+      <workItem from="1716371042442" duration="8599000" />
+      <workItem from="1716380179755" duration="21000" />
+      <workItem from="1717164788547" duration="4643000" />
+      <workItem from="1717250791421" duration="1800000" />
+      <workItem from="1718981428066" duration="3905000" />
     </task>
     <task id="LOCAL-00001" summary="oo">
       <option name="closed" value="true" />
@@ -468,7 +479,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711755477013</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="new array 8">
+      <option name="closed" value="true" />
+      <created>1716374168063</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1716374168063</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
