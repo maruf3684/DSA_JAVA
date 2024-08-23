@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d0df1d-343c-4066-bb6c-a53f8b212f19" name="Changes" comment="new array 8">
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/BinarySearch/OccurenceOfNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/BinarySearch/OccurenceOfNumber2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Greedy/Easy/Cookies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Greedy/Easy/ValidParen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/LinkedList/Mid/Cycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/string/PalinDrom.java" afterDir="false" />
+    <list default="true" id="42d0df1d-343c-4066-bb6c-a53f8b212f19" name="Changes" comment="new heap">
+      <change afterPath="$PROJECT_DIR$/src/String/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/Compare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String/GroupAnagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +62,7 @@
     "Application.Bubble.executor": "Run",
     "Application.CheckSorted.executor": "Run",
     "Application.ClimbingStars.executor": "Run",
+    "Application.Compare.executor": "Run",
     "Application.Cookies.executor": "Run",
     "Application.CountAllSubArrWithGivnSum.executor": "Run",
     "Application.CountSubArrWithSum.executor": "Debug",
@@ -74,6 +72,13 @@
     "Application.FindNumberAppearOne.executor": "Run",
     "Application.FourSum.executor": "Debug",
     "Application.FrogJump.executor": "Run",
+    "Application.GroupAnagram.executor": "Run",
+    "Application.HeapImplement (1).executor": "Run",
+    "Application.HeapImplement (2).executor": "Run",
+    "Application.HeapImplement (3).executor": "Run",
+    "Application.HeapImplement (4).executor": "Run",
+    "Application.HeapImplement (5).executor": "Run",
+    "Application.HeapImplement.executor": "Run",
     "Application.Incertion.executor": "Run",
     "Application.Intersection.executor": "Run",
     "Application.LargestSubArrWithZeroSum.executor": "Run",
@@ -152,13 +157,13 @@
       <recent name="$PROJECT_DIR$/src/More/Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PalinDrom">
-    <configuration name="Cookies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Greedy.Easy.Cookies" />
+  <component name="RunManager" selected="Application.GroupAnagram">
+    <configuration name="Compare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.Compare" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DsXXAlgo.Greedy.Easy.*" />
+          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.LinkedList.Mid.Cycle" />
+    <configuration name="GroupAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.GroupAnagram" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DsXXAlgo.LinkedList.Mid.*" />
+          <option name="PATTERN" value="String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OccurenceOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.BinarySearch.OccurenceOfNumber" />
+    <configuration name="HeapImplement (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Heap.HeapImplement" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DsXXAlgo.BinarySearch.*" />
+          <option name="PATTERN" value="DsXXAlgo.Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,12 +197,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalinDrom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.string.PalinDrom" />
+    <configuration name="HeapImplement (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Heap.HeapImplement" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DsXXAlgo.string.*" />
+          <option name="PATTERN" value="DsXXAlgo.Heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapImplement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Heap.HeapImplement" />
+      <module name="LearnJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DsXXAlgo.Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,34 +236,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Greedy.Easy.ValidParen" />
-      <module name="LearnJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DsXXAlgo.Greedy.Easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.UndirectedGraph" />
-      <item itemvalue="Application.PalinDrom" />
-      <item itemvalue="Application.OccurenceOfNumber" />
-      <item itemvalue="Application.Cookies" />
-      <item itemvalue="Application.Cycle" />
-      <item itemvalue="Application.ValidParen" />
+      <item itemvalue="Application.Compare" />
+      <item itemvalue="Application.GroupAnagram" />
+      <item itemvalue="Application.HeapImplement" />
+      <item itemvalue="Application.HeapImplement (1)" />
+      <item itemvalue="Application.HeapImplement (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PalinDrom" />
-        <item itemvalue="Application.OccurenceOfNumber" />
-        <item itemvalue="Application.ValidParen" />
-        <item itemvalue="Application.Cookies" />
-        <item itemvalue="Application.Cycle" />
+        <item itemvalue="Application.GroupAnagram" />
+        <item itemvalue="Application.Compare" />
+        <item itemvalue="Application.HeapImplement" />
+        <item itemvalue="Application.HeapImplement (2)" />
+        <item itemvalue="Application.HeapImplement (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -326,6 +331,13 @@
       <workItem from="1717164788547" duration="4643000" />
       <workItem from="1717250791421" duration="1800000" />
       <workItem from="1718981428066" duration="3905000" />
+      <workItem from="1719167202560" duration="647000" />
+      <workItem from="1719340312986" duration="10301000" />
+      <workItem from="1719356661344" duration="613000" />
+      <workItem from="1719359173974" duration="32000" />
+      <workItem from="1719510440829" duration="1282000" />
+      <workItem from="1719948064423" duration="51000" />
+      <workItem from="1724412759406" duration="7781000" />
     </task>
     <task id="LOCAL-00001" summary="oo">
       <option name="closed" value="true" />
@@ -487,7 +499,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716374168063</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="new array 8">
+      <option name="closed" value="true" />
+      <created>1719167227664</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1719167227664</updated>
+    </task>
+    <task id="LOCAL-00022" summary="new heap">
+      <option name="closed" value="true" />
+      <created>1719346984151</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1719346984151</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +545,8 @@
     <MESSAGE value="new array 6" />
     <MESSAGE value="new array 7" />
     <MESSAGE value="new array 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="new array 8" />
+    <MESSAGE value="new heap" />
+    <option name="LAST_COMMIT_MESSAGE" value="new heap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
