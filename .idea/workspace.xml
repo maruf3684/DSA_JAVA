@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42d0df1d-343c-4066-bb6c-a53f8b212f19" name="Changes" comment="new heap">
-      <change afterPath="$PROJECT_DIR$/src/String/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/Compare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/String/GroupAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arry/LongestConnsutive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arry/TopKFrequent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +83,7 @@
     "Application.LargestSubArrWithZeroSum.executor": "Run",
     "Application.LeadersInArray.executor": "Run",
     "Application.LeftRotate.executor": "Run",
+    "Application.LongestConnsutive.executor": "Run",
     "Application.LongestSubarray.executor": "Run",
     "Application.LongestSubarrayPositiveOnly.executor": "Run",
     "Application.LongestSubarrayWithNegative.executor": "Run",
@@ -125,6 +125,7 @@
     "Application.TestOne.executor": "Run",
     "Application.TestTwo.executor": "Run",
     "Application.ThreeSum.executor": "Run",
+    "Application.TopKFrequent.executor": "Run",
     "Application.Trstmain.executor": "Run",
     "Application.TwoSome.executor": "Run",
     "Application.UndirectedGraph.executor": "Run",
@@ -157,7 +158,7 @@
       <recent name="$PROJECT_DIR$/src/More/Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GroupAnagram">
+  <component name="RunManager" selected="Application.LongestConnsutive">
     <configuration name="Compare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="String.Compare" />
       <module name="LearnJava" />
@@ -184,38 +185,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapImplement (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Heap.HeapImplement" />
-      <module name="LearnJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DsXXAlgo.Heap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeapImplement (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Heap.HeapImplement" />
-      <module name="LearnJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DsXXAlgo.Heap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HeapImplement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Heap.HeapImplement" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DsXXAlgo.Heap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestConnsutive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arry.LongestConnsutive" />
+      <module name="LearnJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopKFrequent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arry.TopKFrequent" />
+      <module name="LearnJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arry.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,19 +239,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.UndirectedGraph" />
+      <item itemvalue="Application.LongestConnsutive" />
       <item itemvalue="Application.Compare" />
       <item itemvalue="Application.GroupAnagram" />
+      <item itemvalue="Application.TopKFrequent" />
       <item itemvalue="Application.HeapImplement" />
-      <item itemvalue="Application.HeapImplement (1)" />
-      <item itemvalue="Application.HeapImplement (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestConnsutive" />
+        <item itemvalue="Application.TopKFrequent" />
         <item itemvalue="Application.GroupAnagram" />
         <item itemvalue="Application.Compare" />
         <item itemvalue="Application.HeapImplement" />
-        <item itemvalue="Application.HeapImplement (2)" />
-        <item itemvalue="Application.HeapImplement (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +338,8 @@
       <workItem from="1719359173974" duration="32000" />
       <workItem from="1719510440829" duration="1282000" />
       <workItem from="1719948064423" duration="51000" />
-      <workItem from="1724412759406" duration="7781000" />
+      <workItem from="1724412759406" duration="14760000" />
+      <workItem from="1724861405450" duration="2501000" />
     </task>
     <task id="LOCAL-00001" summary="oo">
       <option name="closed" value="true" />
@@ -515,7 +517,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719346984151</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="new heap">
+      <option name="closed" value="true" />
+      <created>1724426948282</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1724426948282</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
