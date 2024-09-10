@@ -1,4 +1,4 @@
-package DsXXAlgo.string;
+package DsXXAlgo.String;
 
 public class PalinDrom {
     public static void main(String[] args) {

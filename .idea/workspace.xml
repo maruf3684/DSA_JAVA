@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d0df1d-343c-4066-bb6c-a53f8b212f19" name="Changes" comment="new arr">
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/LinkedList/hard/LRUCaches.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/SlidingWindow/LongestRepeatingCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/SlidingWindow/LongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/ContainerWaterMost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/TappingRain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/TappingRain2.java" afterDir="false" />
+    <list default="true" id="42d0df1d-343c-4066-bb6c-a53f8b212f19" name="Changes" comment="sliding w">
+      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/SlidingWindow/MinimumWindowSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/SlidingWindow/PermutationInStr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/string/PalinDrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/String/PalinDrom.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +107,7 @@
     "Application.MaxConsecutiveOne.executor": "Run",
     "Application.MejorityEliments.executor": "Run",
     "Application.Merge.executor": "Run",
+    "Application.MinimumWindowSubstring.executor": "Run",
     "Application.MyGraph2 (1).executor": "Run",
     "Application.MyGraph2 (2).executor": "Run",
     "Application.MyGraph2 (3).executor": "Run",
@@ -121,6 +119,7 @@
     "Application.OccurenceOfNumber.executor": "Run",
     "Application.PalinDrom.executor": "Run",
     "Application.PascalTriangle.executor": "Run",
+    "Application.PermutationInStr.executor": "Run",
     "Application.PrevLargeElement.executor": "Run",
     "Application.Quick.executor": "Debug",
     "Application.RearrangeBySign.executor": "Run",
@@ -175,23 +174,7 @@
       <recent name="$PROJECT_DIR$/src/More/Array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestRepeatingCharacter">
-    <configuration name="LRUCaches (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LRUCaches" />
-      <module name="LearnJava" />
-      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LRUCaches (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LRUCaches" />
-      <module name="LearnJava" />
-      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MinimumWindowSubstring">
     <configuration name="LRUCaches" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LRUCaches" />
       <module name="LearnJava" />
@@ -226,6 +209,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinimumWindowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.SlidingWindow.MinimumWindowSubstring" />
+      <module name="LearnJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DsXXAlgo.SlidingWindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PermutationInStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.SlidingWindow.PermutationInStr" />
+      <module name="LearnJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DsXXAlgo.SlidingWindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UndirectedGraph" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Graph.UndirectedGraph" />
       <module name="LearnJava" />
@@ -241,19 +250,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.UndirectedGraph" />
+      <item itemvalue="Application.MinimumWindowSubstring" />
+      <item itemvalue="Application.PermutationInStr" />
       <item itemvalue="Application.LongestRepeatingCharacter" />
       <item itemvalue="Application.LongestSubstring" />
       <item itemvalue="Application.LRUCaches" />
-      <item itemvalue="Application.LRUCaches (1)" />
-      <item itemvalue="Application.LRUCaches (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumWindowSubstring" />
+        <item itemvalue="Application.PermutationInStr" />
         <item itemvalue="Application.LongestRepeatingCharacter" />
         <item itemvalue="Application.LongestSubstring" />
         <item itemvalue="Application.LRUCaches" />
-        <item itemvalue="Application.LRUCaches (1)" />
-        <item itemvalue="Application.LRUCaches (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +353,8 @@
       <workItem from="1724861405450" duration="7035000" />
       <workItem from="1725652331603" duration="2049000" />
       <workItem from="1725655765356" duration="5187000" />
-      <workItem from="1725903980370" duration="9092000" />
+      <workItem from="1725903980370" duration="9884000" />
+      <workItem from="1725985486372" duration="8636000" />
     </task>
     <task id="LOCAL-00001" summary="oo">
       <option name="closed" value="true" />
@@ -538,7 +548,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724864123656</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="sliding w">
+      <option name="closed" value="true" />
+      <created>1725916046309</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1725916046309</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,7 +588,8 @@
     <MESSAGE value="new array 8" />
     <MESSAGE value="new heap" />
     <MESSAGE value="new arr" />
-    <option name="LAST_COMMIT_MESSAGE" value="new arr" />
+    <MESSAGE value="sliding w" />
+    <option name="LAST_COMMIT_MESSAGE" value="sliding w" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -604,6 +623,24 @@
           <url>file://$PROJECT_DIR$/src/DsXXAlgo/Array/Hard/LargestSubArrWithZeroSum.java</url>
           <line>41</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/DsXXAlgo/SlidingWindow/MinimumWindowSubstring.java</url>
+          <line>12</line>
+          <properties class="DsXXAlgo.SlidingWindow.MinimumWindowSubstring" method="minWindow">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/DsXXAlgo/SlidingWindow/MinimumWindowSubstring.java</url>
+          <line>30</line>
+          <properties class="DsXXAlgo.SlidingWindow.MinimumWindowSubstring" method="minWindowfinder">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
