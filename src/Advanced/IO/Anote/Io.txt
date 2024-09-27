@@ -1,0 +1,55 @@
+  java.lang.Object
+      ├── java.io.Closeable (Interface)
+      │       ├── java.io.InputStream  // Most used for reading binary data
+      │       │       ├── java.io.ByteArrayInputStream
+      │       │       ├── java.io.FileInputStream  // For reading files
+      │       │       └── java.io.FilterInputStream
+      │       │               ├── java.io.BufferedInputStream  // For buffering input streams
+      │       │               ├── java.io.DataInputStream
+      │       │               └── java.io.PushbackInputStream
+      │       ├── java.io.OutputStream  // Most used for writing binary data
+      │       │       ├── java.io.ByteArrayOutputStream
+      │       │       ├── java.io.FileOutputStream  // For writing files
+      │       │       └── java.io.FilterOutputStream
+      │       │               ├── java.io.BufferedOutputStream  // For buffering output streams
+      │       │               ├── java.io.DataOutputStream
+      │       │               └── java.io.PrintStream  // For printing output
+      │       ├── java.io.Reader  // Most used for reading character data
+      │       │       ├── java.io.BufferedReader  // For buffering character streams
+      │       │       ├── java.io.CharArrayReader
+      │       │       ├── java.io.FilterReader
+      │       │       ├── java.io.InputStreamReader  // For reading bytes and decoding them into characters
+      │       │       │       └── java.io.FileReader  // For reading files
+      │       │       └── java.io.StringReader
+      │       ├── java.io.Writer  // Most used for writing character data
+      │       │       ├── java.io.BufferedWriter  // For buffering character streams
+      │       │       ├── java.io.CharArrayWriter
+      │       │       ├── java.io.FilterWriter
+      │       │       ├── java.io.OutputStreamWriter  // For writing characters and encoding them into bytes
+      │       │       │       └── java.io.FileWriter  // For writing files
+      │       │       └── java.io.PrintWriter  // For printing character output
+      ├── java.io.Serializable (Interface)  // For object serialization
+      ├── java.io.Externalizable (Interface)
+      ├── java.io.DataInput (Interface)
+      │       └── java.io.ObjectInput
+      │               └── java.io.ObjectInputStream  // For reading serialized objects
+      ├── java.io.DataOutput (Interface)
+      │       └── java.io.ObjectOutput
+      │               └── java.io.ObjectOutputStream  // For writing serialized objects
+      ├── java.io.FileFilter (Interface)
+      │       └── java.io.FilenameFilter (Interface)
+      ├── java.io.Flushable (Interface)
+      ├── java.io.ObjectStreamConstants (Interface)
+      ├── java.io.ObjectStreamException
+      │       ├── java.io.InvalidClassException
+      │       ├── java.io.InvalidObjectException
+      │       ├── java.io.NotActiveException
+      │       ├── java.io.NotSerializableException
+      │       ├── java.io.OptionalDataException
+      │       └── java.io.StreamCorruptedException
+      ├── java.io.InterruptedIOException
+      │       ├── java.io.EOFException  // For end-of-file exceptions
+      │       └── java.io.ObjectStreamException
+      ├── java.io.File  // For file operations
+      ├── java.io.RandomAccessFile  // For random access to files
+      └── java.io.Console

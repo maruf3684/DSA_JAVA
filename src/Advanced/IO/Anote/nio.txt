@@ -1,0 +1,74 @@
+  java.lang.Object
+      ├── java.nio.Buffer
+      │       ├── java.nio.ByteBuffer  // Most used for byte buffers
+      │       │       ├── java.nio.DirectByteBuffer
+      │       │       └── java.nio.HeapByteBuffer
+      │       ├── java.nio.CharBuffer  // Most used for character buffers
+      │       ├── java.nio.DoubleBuffer
+      │       ├── java.nio.FloatBuffer
+      │       ├── java.nio.IntBuffer
+      │       ├── java.nio.LongBuffer
+      │       └── java.nio.ShortBuffer
+      ├── java.nio.ByteOrder
+      ├── java.nio.MappedByteBuffer
+      ├── java.nio.channels.Channel (Interface)  // For all I/O operations
+      │       ├── java.nio.channels.ByteChannel (Interface)
+      │       │       └── java.nio.channels.SeekableByteChannel (Interface)
+      │       │               └── java.nio.channels.FileChannel  // For file operations
+      │       ├── java.nio.channels.ReadableByteChannel (Interface)
+      │       │       ├── java.nio.channels.FileChannel
+      │       │       └── java.nio.channels.SocketChannel  // For network operations
+      │       ├── java.nio.channels.WritableByteChannel (Interface)
+      │       │       ├── java.nio.channels.FileChannel
+      │       │       └── java.nio.channels.SocketChannel  // For network operations
+      │       ├── java.nio.channels.NetworkChannel (Interface)
+      │       │       ├── java.nio.channels.SocketChannel  // For network operations
+      │       │       └── java.nio.channels.ServerSocketChannel  // For network operations
+      │       ├── java.nio.channels.AsynchronousByteChannel (Interface)
+      │       │       ├── java.nio.channels.AsynchronousFileChannel
+      │       │       └── java.nio.channels.AsynchronousSocketChannel  // For network operations
+      │       ├── java.nio.channels.MulticastChannel (Interface)
+      │       └── java.nio.channels.spi.AbstractSelectableChannel
+      │               ├── java.nio.channels.FileChannel
+      │               ├── java.nio.channels.SocketChannel
+      │               ├── java.nio.channels.ServerSocketChannel
+      │               └── java.nio.channels.DatagramChannel  // For network operations
+      ├── java.nio.channels.Channel (Interface)  // For all I/O operations
+      │       ├── java.nio.channels.FileChannel  // For file operations
+      │       ├── java.nio.channels.SocketChannel  // For network operations
+      │       ├── java.nio.channels.ServerSocketChannel  // For network operations
+      │       ├── java.nio.channels.DatagramChannel  // For network operations
+      │       └── java.nio.channels.Pipe
+      │               ├── java.nio.channels.Pipe.SinkChannel
+      │               └── java.nio.channels.Pipe.SourceChannel
+      ├── java.nio.channels.Selector
+      ├── java.nio.channels.SelectionKey
+      ├── java.nio.channels.SelectableChannel (Abstract Class)
+      │       └── java.nio.channels.spi.AbstractSelectableChannel
+      │               ├── java.nio.channels.SocketChannel
+      │               ├── java.nio.channels.ServerSocketChannel
+      │               └── java.nio.channels.DatagramChannel
+      ├── java.nio.channels.spi.AbstractInterruptibleChannel
+      │       ├── java.nio.channels.FileChannel  // For file operations
+      │       ├── java.nio.channels.Pipe.SinkChannel
+      │       └── java.nio.channels.Pipe.SourceChannel
+      ├── java.nio.file.FileSystem
+      ├── java.nio.file.FileSystems
+      ├── java.nio.file.FileSystemProvider
+      ├── java.nio.file.Path  // For file operations
+      ├── java.nio.file.Paths  // For file operations
+      ├── java.nio.file.Files  // For file operations
+      ├── java.nio.file.attribute.FileAttribute (Interface)
+      │       ├── java.nio.file.attribute.BasicFileAttributes
+      │       ├── java.nio.file.attribute.PosixFileAttributes
+      ├── java.nio.file.attribute.FileAttributeView (Interface)
+      │       ├── java.nio.file.attribute.BasicFileAttributeView
+      │       ├── java.nio.file.attribute.PosixFileAttributeView
+      │       └── java.nio.file.attribute.DosFileAttributeView
+      ├── java.nio.file.StandardOpenOption
+      ├── java.nio.file.attribute.UserPrincipal (Interface)
+      ├── java.nio.file.attribute.GroupPrincipal (Interface)
+      ├── java.nio.file.attribute.UserPrincipalLookupService
+      ├── java.nio.file.WatchService  // For file operations
+      ├── java.nio.file.WatchKey
+      └── java.nio.file.WatchEvent
