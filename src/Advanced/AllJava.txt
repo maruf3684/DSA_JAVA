@@ -1,0 +1,145 @@
+java.lang
+├── java.lang.Throwable                  // Base class for all errors and exceptions
+│   ├── java.lang.Exception               // Base class for exceptions
+│   │   ├── java.lang.RuntimeException    // Unchecked exceptions
+│   │   │   ├── java.lang.NullPointerException // Thrown when trying to use null
+│   │   │   ├── java.lang.IndexOutOfBoundsException // Thrown when accessing invalid indices
+│   │   │   └── java.lang.ClassCastException // Thrown when an object is not of the expected type
+│   │   ├── java.lang.CheckedException    // Checked exceptions, require handling
+│   │   │   ├── java.io.IOException       // Thrown when an I/O operation fails
+│   │   │   ├── java.sql.SQLException      // Thrown for SQL-related errors
+│   │   │   └── java.lang.ExceptionInInitializerError // Thrown when an exception occurs during static initialization
+│   │   ├── java.lang.ExceptionInInitializerError // Thrown when an exception occurs during static initialization
+│   │   └── java.lang.InterruptedException // Thrown when a thread is interrupted
+│   │
+│   └── java.lang.Error                   // Serious errors, typically unrecoverable
+│       ├── java.lang.StackOverflowError   // Thrown when the stack size exceeds limits
+│       ├── java.lang.OutOfMemoryError     // Thrown when memory allocation fails
+            └── java.lang.NoClassDefFoundError  // Thrown when a class definition cannot be found
+
+java.lang.reflect
+│
+├── java.lang.reflect.AccessibleObject      // Base class for objects that can have their accessibility changed
+│   ├── java.lang.reflect.Method            // Represents a method of a class
+│   ├── java.lang.reflect.Field             // Represents a field of a class
+│   ├── java.lang.reflect.Constructor       // Represents a constructor of a class
+│   ├── java.lang.reflect.Proxy             // Provides a way to create dynamic proxy classes
+│   └── java.lang.reflect.Array             // Provides static methods to create and access Java arrays
+
+java.lang.
+│   ├── java.lang.Object
+│   ├── java.lang.Class
+│   ├── java.lang.String
+│   ├── java.lang.Math
+│   ├── java.lang.System
+│   ├── java.lang.Thread
+│   ├── java.lang.Boolean
+│   ├── java.lang.Character
+│   ├── java.lang.Integer
+│   ├── java.lang.Double
+│   ├── java.lang.Long
+│   ├── java.lang.Short
+│   ├── java.lang.Byte
+│   ├── java.lang.StringBuffer
+│   └── java.lang.StringBuilder
+
+java.util
+│   ├── java.util.List (Interface)           // Collection of elements
+│   │   ├── java.util.ArrayList              // Resizable array implementation
+│   │   ├── java.util.LinkedList             // Linked list implementation
+│   │   └── java.util.Vector                 // Dynamic array (legacy)
+│   ├── java.util.Set (Interface)            // Collection of unique elements
+│   │   ├── java.util.HashSet                // Hash table implementation
+│   │   ├── java.util.LinkedHashSet          // Ordered version of HashSet
+│   │   └── java.util.TreeSet                // Sorted set implementation
+│   ├── java.util.Map (Interface)            // Key-value pairs
+│   │   ├── java.util.HashMap                // Hash table implementation
+│   │   ├── java.util.LinkedHashMap          // Ordered version of HashMap
+│   │   └── java.util.TreeMap                // Sorted map implementation
+│   ├── java.util.Queue (Interface)          // Collection for holding elements prior to processing
+│   │   ├── java.util.PriorityQueue          // Queue based on priority
+│   │   └── java.util.ArrayDeque             // Resizable array implementation of a deque
+│   ├── java.util.Iterator (Interface)       // For iterating over collections
+│   ├── java.util.Collection (Interface)     // Root interface for collections
+│   ├── java.util.Collections                 // Utility methods for collections
+│   ├── java.util.Arrays                      // Utility methods for arrays
+│   └── java.util.Properties
+
+
+java.io
+│   ├── java.io.InputStream                  // Abstract class for reading binary data
+│   │   ├── java.io.FileInputStream          // For reading files
+│   │   └── java.io.BufferedInputStream      // For buffering input streams
+│   ├── java.io.OutputStream                 // Abstract class for writing binary data
+│   │   ├── java.io.FileOutputStream         // For writing files
+│   │   └── java.io.BufferedOutputStream     // For buffering output streams
+│   ├── java.io.Reader                       // Abstract class for reading character data
+│   │   ├── java.io.FileReader               // For reading files as characters
+│   │   └── java.io.BufferedReader           // For buffering character input
+│   ├── java.io.Writer                       // Abstract class for writing character data
+│   │   ├── java.io.FileWriter               // For writing files as characters
+│   │   └── java.io.BufferedWriter           // For buffering character output
+│   ├── java.io.File                         // For file operations
+│   ├── java.io.Serializable                  // For object serialization
+│   ├── java.io.RandomAccessFile             // For random access to files
+│   └── java.io.Console                      // For console input/output
+
+java.nio
+│   ├── java.nio.ByteBuffer                   // For byte buffer operations
+│   ├── java.nio.channels.Channel (Interface) // Base interface for channels
+│   │   ├── java.nio.channels.FileChannel     // For file channel operations
+│   │   └── java.nio.channels.SocketChannel    // For socket communication
+│   ├── java.nio.file.Files                   // For file I/O operations
+│   ├── java.nio.file.Path                    // Represents file and directory path
+│   ├── java.nio.file.Paths                   // Factory for creating Path instances
+│   ├── java.nio.file.StandardOpenOption      // Options for opening files
+│   └── java.nio.file.attribute.BasicFileAttributes // File attributes
+
+java.net
+│   ├── java.net.URL                          // Represents a Uniform Resource Locator
+│   ├── java.net.HttpURLConnection            // For HTTP connection handling
+│   ├── java.net.Socket                       // For client-side socket communication
+│   ├── java.net.ServerSocket                 // For server-side socket communication
+│   └── java.net.InetAddress                  // Represents an IP address
+
+java.sql
+│   ├── java.sql.Connection                   // Represents a connection to the database
+│   ├── java.sql.Statement                    // For executing SQL statements
+│   ├── java.sql.PreparedStatement            // For precompiled SQL statements
+│   ├── java.sql.ResultSet                    // Represents the result set of a query
+│   └── java.sql.SQLException                 // Exception for SQL errors
+
+java.util.concurrent
+│   ├── java.util.concurrent.Executor         // For executing tasks asynchronously
+│   ├── java.util.concurrent.ExecutorService  // For managing threads and tasks
+│   ├── java.util.concurrent.Executors       // Factory class for creating thread pools
+│   ├── java.util.concurrent.Future           // Represents the result of an asynchronous computation
+│   ├── java.util.concurrent.Callable         // For tasks that return a result
+│   └── java.util.concurrent.CountDownLatch   // For managing thread synchronization
+
+java.awt
+│   ├── java.awt.Frame                        // Represents a top-level window
+│   ├── java.awt.Button                       // Represents a button
+│   ├── java.awt.Graphics                     // For drawing graphics
+│   └── java.awt.event.ActionListener        // For handling action events
+
+javax.swing
+│   ├── javax.swing.JFrame                     // Represents a window with a title
+│   ├── javax.swing.JButton                    // Represents a button in Swing
+│   ├── javax.swing.JPanel                     // Represents a container for components
+│   └── javax.swing.event.DocumentListener    // For listening to document changes
+
+java.time
+│   ├── java.time.LocalDate                   // Represents a date without time
+│   ├── java.time.LocalTime                   // Represents a time without date
+│   ├── java.time.LocalDateTime               // Represents a date-time without timezone
+│   ├── java.time.ZonedDateTime               // Represents a date-time with timezone
+│   └── java.time.format.DateTimeFormatter     // For formatting and parsing date-time objects
+
+java.security
+│   ├── java.security.SecureRandom            // For generating secure random numbers
+│   ├── java.security.Key                     // Represents a cryptographic key
+│   ├── java.security.PublicKey                // Represents a public key
+│   ├── java.security.PrivateKey               // Represents a private key
+│   ├── java.security.Signature                // For digital signatures
+│   └── java.security.MessageDigest            // For creating message digests (hashes)

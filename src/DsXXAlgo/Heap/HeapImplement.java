@@ -2,11 +2,11 @@ package DsXXAlgo.Heap;
 
 import java.util.Arrays;
 
-class Heap{
+class heap<I extends Number> {
     public int[] arr;
     public int size = 0;
     public int length;
-    public Heap(int length) {
+    public heap() {
         this.arr = new int[length];
         this.length = arr.length;
     }
@@ -90,31 +90,12 @@ class Heap{
     public void print(){
         System.out.println(Arrays.toString(this.arr));
     }
+
+    public void insert(I i) {
+    }
 }
 public class HeapImplement {
     public static void main(String[] args) {
-          Heap heap = new Heap(10);
-          heap.add(1);
-          heap.add(2);
-          heap.add(3);
-          heap.add(4);
-          heap.add(5);
-          heap.add(6);
-          heap.add(7);
-          heap.add(8);
-          heap.add(9);
-          heap.add(10);
-          heap.print();
 
-          heap.remove();
-          heap.remove();
-          heap.remove();
-          heap.remove();
-          heap.remove();
-          heap.remove();
-          heap.remove();
-          heap.remove();
-          heap.remove();
-          heap.remove();
     }
 }
