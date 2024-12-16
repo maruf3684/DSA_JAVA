@@ -5,32 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42d0df1d-343c-4066-bb6c-a53f8b212f19" name="Changes" comment="new -- file">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Advanced/AllJava.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Advanced/IO/Code/InputStream/BufferedInputStreamExample3_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Advanced/IO/Code/InputStream/ByteArrayInputStreamExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Advanced/IO/Code/InputStream/DataInputStreamExample3_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Advanced/IO/Code/InputStream/FileInputStreamExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Advanced/IO/Code/InputStream/PushbackInputStreamExample3_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Advanced/IO/Code/OutputStream/BufferedOutputStream3_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Advanced/IO/Code/OutputStream/ByteArrayOutputStreamExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Advanced/IO/Code/OutputStream/DataOutputStreamExample3_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Advanced/IO/Code/OutputStream/FileOutputStreamExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Advanced/IO/Code/OutputStream/PrintStreamExample3_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Advanced/MultiThreading/Multi.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Advanced/Swingx/SwingCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/BackTracking/Nqueen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Hashmap/HashEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Hashmap/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Hashmap/MakeHashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/OpenClose/OpenClose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/SingleResPrinciple/AccountDepertment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/SingleResPrinciple/OrderDepertment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SOLID/SingleResPrinciple/Srp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Toptal/CountMissingTags.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DsXXAlgo/Graph/Cycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Heap/Basic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Heap/HeapImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DsXXAlgo/Heap/HeapImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Sum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,149 +63,149 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AddTwoNumber.executor": "Run",
-    "Application.AllSubarray.executor": "Run",
-    "Application.Basic.executor": "Run",
-    "Application.Bubble.executor": "Run",
-    "Application.BufferedInputStreamExample3_1.executor": "Run",
-    "Application.BufferedOutputStream3_1.executor": "Run",
-    "Application.ByteArrayInputStreamExample.executor": "Run",
-    "Application.ByteArrayOutputStreamExample1.executor": "Run",
-    "Application.CarFleet.executor": "Run",
-    "Application.CheckSorted.executor": "Run",
-    "Application.ClimbingStars.executor": "Run",
-    "Application.Compare.executor": "Run",
-    "Application.ContainerWaterMost.executor": "Run",
-    "Application.Cookies.executor": "Run",
-    "Application.CountAllSubArrWithGivnSum.executor": "Run",
-    "Application.CountMissingTags.executor": "Run",
-    "Application.CountSubArrWithSum.executor": "Debug",
-    "Application.Cycle.executor": "Run",
-    "Application.DataInputStreamExample3_2.executor": "Run",
-    "Application.DataOutputStreamExample3_2.executor": "Run",
-    "Application.FileInputStreamExample.executor": "Run",
-    "Application.FileOutputStreamExample2.executor": "Run",
-    "Application.FindDuplicate.executor": "Run",
-    "Application.FindEvenFromStream.executor": "Run",
-    "Application.FindMissingFromArray.executor": "Run",
-    "Application.FindNumberAppearOne.executor": "Run",
-    "Application.FourSum.executor": "Debug",
-    "Application.FrogJump.executor": "Run",
-    "Application.GenerateParen.executor": "Run",
-    "Application.GroupAnagram.executor": "Run",
-    "Application.HeapImplement (1).executor": "Run",
-    "Application.HeapImplement (2).executor": "Run",
-    "Application.HeapImplement (3).executor": "Run",
-    "Application.HeapImplement (4).executor": "Run",
-    "Application.HeapImplement (5).executor": "Run",
-    "Application.HeapImplement.executor": "Run",
-    "Application.Incertion.executor": "Run",
-    "Application.Intersection.executor": "Run",
-    "Application.LRUCache (1).executor": "Run",
-    "Application.LRUCache (2).executor": "Run",
-    "Application.LRUCache.executor": "Run",
-    "Application.LRUCaches (1).executor": "Run",
-    "Application.LRUCaches (2).executor": "Run",
-    "Application.LRUCaches (3).executor": "Run",
-    "Application.LRUCaches (4).executor": "Run",
-    "Application.LRUCaches (5).executor": "Run",
-    "Application.LRUCaches.executor": "Run",
-    "Application.LargestRectangle.executor": "Run",
-    "Application.LargestSubArrWithZeroSum.executor": "Run",
-    "Application.LeadersInArray.executor": "Run",
-    "Application.LeftRotate.executor": "Run",
-    "Application.LongestConnsutive.executor": "Run",
-    "Application.LongestRepeatingCharacter.executor": "Run",
-    "Application.LongestSubarray.executor": "Run",
-    "Application.LongestSubarrayPositiveOnly.executor": "Run",
-    "Application.LongestSubarrayWithNegative.executor": "Run",
-    "Application.LongestSubstring.executor": "Run",
-    "Application.Main (1).executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MajorityElement2.executor": "Run",
-    "Application.MakeHashTable.executor": "Run",
-    "Application.MapFunExample.executor": "Run",
-    "Application.MaxConsecutiveOne.executor": "Run",
-    "Application.MejorityEliments.executor": "Run",
-    "Application.Merge.executor": "Run",
-    "Application.MinStack.executor": "Run",
-    "Application.MinimumWindowSubstring.executor": "Run",
-    "Application.MyGraph2 (1).executor": "Run",
-    "Application.MyGraph2 (2).executor": "Run",
-    "Application.MyGraph2 (3).executor": "Run",
-    "Application.MyGraph2 (4).executor": "Run",
-    "Application.MyGraph2 (5).executor": "Run",
-    "Application.MyGraph2.executor": "Run",
-    "Application.NextLargestElement.executor": "Run",
-    "Application.NextPermutation.executor": "Run",
-    "Application.NextWarmerDay.executor": "Run",
-    "Application.NotSpecialNumber.executor": "Run",
-    "Application.Nqueen.executor": "Run",
-    "Application.OccurenceOfNumber.executor": "Run",
-    "Application.PalinDrom.executor": "Run",
-    "Application.PascalTriangle.executor": "Run",
-    "Application.PermutationInStr.executor": "Run",
-    "Application.PrevLargeElement.executor": "Run",
-    "Application.PrintStreamExample3_3.executor": "Run",
-    "Application.PushbackInputStreamExample3_3.executor": "Run",
-    "Application.Quick.executor": "Debug",
-    "Application.ReOrderList.executor": "Run",
-    "Application.RearrangeBySign.executor": "Run",
-    "Application.RearrangeBySign2.executor": "Run",
-    "Application.ReplaceWithLeader.executor": "Run",
-    "Application.ReversePolish.executor": "Run",
-    "Application.RotateMatrix.executor": "Run",
-    "Application.Selection.executor": "Run",
-    "Application.SetMatrixZero.executor": "Run",
-    "Application.SetMatrixZeroBetter.executor": "Run",
-    "Application.SingleDigit.executor": "Run",
-    "Application.SlidingWindowMaximum.executor": "Run",
-    "Application.SortColors.executor": "Run",
-    "Application.Srp.executor": "Run",
-    "Application.StaticCheck (1).executor": "Run",
-    "Application.StaticCheck.executor": "Run",
-    "Application.StockBuySell.executor": "Run",
-    "Application.StockSpan.executor": "Run",
-    "Application.SubArrayWithLargestSum.executor": "Run",
-    "Application.SubArrayWithLargestSum2.executor": "Run",
-    "Application.Sum.executor": "Run",
-    "Application.SwingCalculator.executor": "Run",
-    "Application.SwingExample.executor": "Run",
-    "Application.TappingRain.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.TestOne.executor": "Run",
-    "Application.TestTwo.executor": "Run",
-    "Application.ThreeSum.executor": "Run",
-    "Application.TopKFrequent.executor": "Run",
-    "Application.Trstmain.executor": "Run",
-    "Application.TwoSome.executor": "Run",
-    "Application.UndirectedGraph.executor": "Run",
-    "Application.Union.executor": "Run",
-    "Application.ValidParen.executor": "Run",
-    "Application.Wpatern.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.preview.features.used": "true",
-    "java.suggest.annotation.dependency": "false",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/maruf/WORK/JAVA/LearnJava",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AddTwoNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AllSubarray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Basic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Bubble.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BufferedInputStreamExample3_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BufferedOutputStream3_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ByteArrayInputStreamExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ByteArrayOutputStreamExample1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CarFleet.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckSorted.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClimbingStars.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Compare.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContainerWaterMost.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Cookies.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountAllSubArrWithGivnSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountMissingTags.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountSubArrWithSum.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Cycle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataInputStreamExample3_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataOutputStreamExample3_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileInputStreamExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileOutputStreamExample2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDuplicate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindEvenFromStream.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindMissingFromArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindNumberAppearOne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FourSum.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FrogJump.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenerateParen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GroupAnagram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HeapImplement (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.HeapImplement (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.HeapImplement (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.HeapImplement (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.HeapImplement (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.HeapImplement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Incertion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Intersection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LRUCache (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LRUCache (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LRUCache.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LRUCaches (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LRUCaches (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LRUCaches (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LRUCaches (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LRUCaches (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LRUCaches.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LargestRectangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LargestSubArrWithZeroSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeadersInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeftRotate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestConnsutive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestRepeatingCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubarray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubarrayPositiveOnly.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubarrayWithNegative.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubstring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MajorityElement2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MakeHashTable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapFunExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxConsecutiveOne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MejorityEliments.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Merge.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumWindowSubstring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyGraph2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyGraph2 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyGraph2 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyGraph2 (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyGraph2 (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyGraph2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NextLargestElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NextPermutation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NextWarmerDay.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NotSpecialNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Nqueen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OccurenceOfNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalinDrom.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PascalTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PermutationInStr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrevLargeElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintStreamExample3_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PushbackInputStreamExample3_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Quick.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReOrderList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RearrangeBySign.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RearrangeBySign2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReplaceWithLeader.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReversePolish.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Selection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SetMatrixZero.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SetMatrixZeroBetter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SingleDigit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SlidingWindowMaximum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortColors.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Srp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StaticCheck (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.StaticCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StockBuySell.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StockSpan.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubArrayWithLargestSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubArrayWithLargestSum2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwingCalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwingExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TappingRain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestOne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreeSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TopKFrequent.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Trstmain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UndirectedGraph.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Union.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidParen.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Wpatern.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;java.suggest.annotation.dependency&quot;: &quot;false&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/maruf/WORK/JAVA/LearnJava&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -238,7 +215,7 @@
       <recent name="$PROJECT_DIR$/src/Advanced/IO/Anote" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MakeHashTable">
+  <component name="RunManager" selected="Application.Sum">
     <configuration name="CountMissingTags" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Toptal.CountMissingTags" />
       <module name="LearnJava" />
@@ -253,11 +230,11 @@
       </method>
     </configuration>
     <configuration name="MakeHashTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Hashmap.MakeHashTable" />
+      <option name="MAIN_CLASS_NAME" value="DsXXAlgo.Hashmap.MakeOwnHashMap.MakeHashTable" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DsXXAlgo.Hashmap.*" />
+          <option name="PATTERN" value="DsXXAlgo.Hashmap.MakeOwnHashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,12 +268,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwingCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Advanced.Swingx.SwingCalculator" />
+    <configuration name="Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Sum" />
       <module name="LearnJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Advanced.Swingx.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -319,19 +296,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.UndirectedGraph" />
-      <item itemvalue="Application.MakeHashTable" />
-      <item itemvalue="Application.Srp" />
+      <item itemvalue="Application.Sum" />
       <item itemvalue="Application.CountMissingTags" />
+      <item itemvalue="Application.MakeHashTable" />
       <item itemvalue="Application.Nqueen" />
-      <item itemvalue="Application.SwingCalculator" />
+      <item itemvalue="Application.Srp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sum" />
         <item itemvalue="Application.MakeHashTable" />
         <item itemvalue="Application.Srp" />
         <item itemvalue="Application.CountMissingTags" />
         <item itemvalue="Application.Nqueen" />
-        <item itemvalue="Application.SwingCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -464,7 +441,12 @@
       <workItem from="1729182928405" duration="1017000" />
       <workItem from="1729195727601" duration="1722000" />
       <workItem from="1729197469753" duration="743000" />
-      <workItem from="1733236654404" duration="5413000" />
+      <workItem from="1733236654404" duration="6300000" />
+      <workItem from="1734111235760" duration="1664000" />
+      <workItem from="1734185444627" duration="573000" />
+      <workItem from="1734192417448" duration="2181000" />
+      <workItem from="1734363004587" duration="5000" />
+      <workItem from="1734378481206" duration="321000" />
     </task>
     <task id="LOCAL-00001" summary="oo">
       <option name="closed" value="true" />
@@ -706,7 +688,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727456709436</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="new -- file">
+      <option name="closed" value="true" />
+      <created>1733243808334</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1733243808334</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -741,7 +731,8 @@
     <MESSAGE value="sliding w" />
     <MESSAGE value="DSA Practice" />
     <MESSAGE value="Refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor" />
+    <MESSAGE value="new -- file" />
+    <option name="LAST_COMMIT_MESSAGE" value="new -- file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
