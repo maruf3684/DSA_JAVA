@@ -27,9 +27,9 @@ public class ThreeSum {
             System.out.println("i running");
             for (int j = i+1; j < n-1; j++) {
                 for (int k = j+1; k < n; k++) {
-                    System.
-                            out.
-                            print(STR."[\{nums[i]} \{nums[j]}\{nums[k]}]\n");
+//                    System.
+//                            out.
+////                            print(STR."[\{nums[i]} \{nums[j]}\{nums[k]}]\n");
                 }
                 System.out.println();
             }

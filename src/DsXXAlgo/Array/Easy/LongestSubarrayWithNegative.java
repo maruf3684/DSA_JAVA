@@ -15,7 +15,7 @@ public class LongestSubarrayWithNegative {
         int sum = arr[0];
         map.put(arr[0],0);
         if(sum == givenSum){
-            System.out.println(STR."start = 0, end = \{0}");
+//            System.out.println(STR."start = 0, end = \{0}");
             return;
         }
 
@@ -27,14 +27,14 @@ public class LongestSubarrayWithNegative {
             if(sum == givenSum){
                 //System.out.println(STR."start = 0, end = \{i}");
                 longDistance = i-0;
-                keypair=STR."start = 0, end = \{i}";
+//                keypair=STR."start = 0, end = \{i}";
             }
             else if(sum > givenSum){
                 if(map.containsKey(sum-givenSum)){
                     int prevKey = map.get(sum-givenSum)+1;
                     if(longDistance < i-prevKey){
                         longDistance = i-prevKey;
-                        keypair=STR."start = \{map.get(sum-givenSum)+1}, end = \{i}";
+//                        keypair=STR."start = \{map.get(sum-givenSum)+1}, end = \{i}";
                     }
                     //System.out.println(STR."start = \{map.get(sum-givenSum)+1}, end = \{i}");
                 }

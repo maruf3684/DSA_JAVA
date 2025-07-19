@@ -47,7 +47,7 @@ public class LongestSubarrayPositiveOnly {
                 distance=right-left;
                 if(maxdis<=distance){
                     maxdis=distance;
-                    ans = STR."left = \{left}, right = \{right}";
+//                    ans = STR."left = \{left}, right = \{right}";
                 }
                 right++;
             }else if(sum<givenSum){

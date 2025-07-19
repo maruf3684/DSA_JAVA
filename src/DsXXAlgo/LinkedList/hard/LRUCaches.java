@@ -86,14 +86,14 @@ import java.util.Map;
     }
 }
 
-public void main(String[] args) {
-    LRUCache lRUCache = new LRUCache(2);
-    lRUCache.put(1,1);
-    lRUCache.put(2,2);
-    lRUCache.put(3,3);
-    lRUCache.put(4,4);
-    lRUCache.put(5,5);
-    lRUCache.print();
-    System.out.println(lRUCache.get(3));
-    lRUCache.print();
-}
+//public void main(String[] args) {
+//    LRUCache lRUCache = new LRUCache(2);
+//    lRUCache.put(1,1);
+//    lRUCache.put(2,2);
+//    lRUCache.put(3,3);
+//    lRUCache.put(4,4);
+//    lRUCache.put(5,5);
+//    lRUCache.print();
+//    System.out.println(lRUCache.get(3));
+//    lRUCache.print();
+//}
