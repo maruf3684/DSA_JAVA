@@ -1,0 +1,19 @@
+✅ General Rules
+	•	ReadWriteLock provides:
+	•	readLock(): for shared read access.
+	•	writeLock(): for exclusive write access.
+
+⸻
+
+📘 Read Lock Rules
+	•	Multiple threads can hold the read lock simultaneously.
+	•	Read lock blocks write lock.
+	•	Read lock does not block other read locks.
+
+⸻
+
+✍️ Write Lock Rules
+	•	Only one thread can hold the write lock at a time.
+	•	Write lock blocks:
+	•	All other write locks.
+	•	All read locks.
