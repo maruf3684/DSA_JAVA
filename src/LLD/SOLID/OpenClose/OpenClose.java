@@ -1,4 +1,4 @@
-package SOLID.OpenClose;
+package LLD.SOLID.OpenClose;
 
 //open for extension-close for modification
 

@@ -1,4 +1,4 @@
-package SOLID.SingleResPrinciple;
+package LLD.SOLID.SingleResPrinciple;
 
 import java.util.ArrayList;
 import java.util.List;

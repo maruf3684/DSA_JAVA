@@ -1,4 +1,4 @@
-package SOLID.SingleResPrinciple;
+package LLD.SOLID.SingleResPrinciple;
 
 public class Srp {
     public static void main(String[] args) {

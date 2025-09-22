@@ -4,142 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d0df1d-343c-4066-bb6c-a53f8b212f19" name="Changes" comment="read write lock">
-      <change afterPath="$PROJECT_DIR$/src/LLD/StrtegyPatern/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/StrtegyPatern/Strategy/Fly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/StrtegyPatern/Strategy/Talk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/StrtegyPatern/Strategy/Walk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/StrtegyPatern/StrategyImpl/FlyWithJet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/StrtegyPatern/StrategyImpl/FlyWithWings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/StrtegyPatern/StrategyImpl/TalkWithMouth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/StrtegyPatern/StrategyImpl/WalkWithFoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/StrtegyPatern/StrategyImpl/WalkWithWheel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LLD/StrtegyPatern/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiThread/ThreadCommunication/Buffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiThread/ThreadCommunication/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiThread/ThreadCommunication/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiThread/ThreadCommunication/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiThread/lambdaThread/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/CheckSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Easy/CheckSorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/FindMissingFromArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Easy/FindMissingFromArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/FindNumberAppearOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Easy/FindNumberAppearOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/Intersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Easy/Intersection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/LeftRotate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Easy/LeftRotate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/LongestSubarrayPositiveOnly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Easy/LongestSubarrayPositiveOnly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/LongestSubarrayWithNegative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Easy/LongestSubarrayWithNegative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/MaxConsecutiveOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Easy/MaxConsecutiveOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/MoveZeroEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Easy/MoveZeroEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/RemoveDuplicteFromSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Easy/RemoveDuplicteFromSorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/SecondLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Easy/SecondLargest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Easy/Union.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Easy/Union.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Hard/AllSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Hard/AllSubarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Hard/CountAllSubArrWithGivnSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Hard/CountAllSubArrWithGivnSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Hard/FourSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Hard/FourSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Hard/LargestSubArrWithZeroSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Hard/LargestSubArrWithZeroSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Hard/MajorityElement2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Hard/MajorityElement2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Hard/MisssingMeasingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Hard/MisssingMeasingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Hard/PascalTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Hard/PascalTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Hard/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Hard/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/CountSubArrWithSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Mid/CountSubArrWithSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/FindDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Mid/FindDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/LeadersInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Mid/LeadersInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/MejorityEliments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Mid/MejorityEliments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/NextPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Mid/NextPermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/RearrangeBySign.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Mid/RearrangeBySign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/RearrangeBySign2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Mid/RearrangeBySign2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/ReplaceWithLeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Mid/ReplaceWithLeader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/RotateMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Mid/RotateMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/SetMatrixZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Mid/SetMatrixZero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/SetMatrixZeroBetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Mid/SetMatrixZeroBetter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/SortColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Mid/SortColors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/StockBuySell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Mid/StockBuySell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/SubArrayWithLargestSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Mid/SubArrayWithLargestSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/SubArrayWithLargestSum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Mid/SubArrayWithLargestSum2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Mid/TwoSome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Mid/TwoSome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Random/CheckSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Random/CheckSorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Random/ElementApearOnce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Random/ElementApearOnce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Random/IntersectionArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Random/IntersectionArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Random/KadanesAlgo_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Random/KadanesAlgo_8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Random/LeftRotateOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Random/LeftRotateOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Random/LiniarSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Random/LiniarSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Random/LongestConnsutive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Random/LongestConnsutive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Random/LongestSubArrPos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Random/LongestSubArrPos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Random/MvZeroEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Random/MvZeroEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Random/NotSpecialNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Random/NotSpecialNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Random/RemoveDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Random/RemoveDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Random/RightRotate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Random/RightRotate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Random/SecondLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Random/SecondLargest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Random/SetMatrixZero_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Random/SetMatrixZero_14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Random/SingleDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Random/SingleDigit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Random/Sort012Arr_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Random/Sort012Arr_6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Random/SubarraySum_17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Random/SubarraySum_17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Random/TopKFrequent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Random/TopKFrequent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Random/TwoSum_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Random/TwoSum_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Random/UnionArrOptimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Random/UnionArrOptimal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Array/Random/UnionArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Array/Random/UnionArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/BackTracking/GenerateParen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/BackTracking/GenerateParen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/BackTracking/Nqueen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/BackTracking/Nqueen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/BinarySearch/Median.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/BinarySearch/Median.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/BinarySearch/OccurenceOfNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/BinarySearch/OccurenceOfNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/BinarySearch/OccurenceOfNumber2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/BinarySearch/OccurenceOfNumber2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/DP/ClimbingStars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/DP/ClimbingStars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/DP/FrogJump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/DP/FrogJump.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Graph/Cycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Graph/Cycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Graph/MyGraph2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Graph/MyGraph2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Graph/Trstmain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Graph/Trstmain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Greedy/Easy/Cookies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Greedy/Easy/Cookies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Greedy/Easy/ValidParen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Greedy/Easy/ValidParen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Hashmap/MakeOwnHashMap/HashEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Hashmap/MakeOwnHashMap/HashEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Hashmap/MakeOwnHashMap/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Hashmap/MakeOwnHashMap/HashTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Hashmap/MakeOwnHashMap/MakeHashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Hashmap/MakeOwnHashMap/MakeHashTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Heap/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Heap/Heap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Heap/HeapImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Heap/HeapImplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Heap/HeapSortArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Heap/HeapSortArr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/LinkedList/Mid/AddTwoNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/LinkedList/Mid/AddTwoNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/LinkedList/Mid/Cycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/LinkedList/Mid/Cycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/LinkedList/Mid/ReOrderList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/LinkedList/Mid/ReOrderList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/LinkedList/hard/LRUCaches.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/LinkedList/hard/LRUCaches.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Map/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Map/Basic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Patern/Wpatern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Patern/Wpatern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Searching/BinInRotatdSorted_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Searching/BinInRotatdSorted_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Searching/Binar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Searching/Binar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Searching/BinarRecr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Searching/BinarRecr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Searching/LowerBound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Searching/LowerBound.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/SlidingWindow/FirstNegative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/SlidingWindow/FirstNegative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/SlidingWindow/LongestRepeatingCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/SlidingWindow/LongestRepeatingCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/SlidingWindow/LongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/SlidingWindow/LongestSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/SlidingWindow/MaximumSumSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/SlidingWindow/MaximumSumSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/SlidingWindow/MinimumWindowSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/SlidingWindow/MinimumWindowSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/SlidingWindow/PermutationInStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/SlidingWindow/PermutationInStr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/SlidingWindow/SlidingWindowMaximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/SlidingWindow/SlidingWindowMaximum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Sorting/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Sorting/Bubble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Sorting/Incertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Sorting/Incertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Sorting/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Sorting/Merge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Sorting/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Sorting/Quick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Sorting/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Sorting/Selection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Stackz/CarFleet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Stackz/CarFleet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Stackz/LargestRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Stackz/LargestRectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Stackz/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Stackz/MinStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Stackz/NextLargestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Stackz/NextLargestElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Stackz/NextWarmerDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Stackz/NextWarmerDay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Stackz/PrevSmallerElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Stackz/PrevSmallerElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Stackz/ReversePolish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Stackz/ReversePolish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Stackz/StockSpan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Stackz/StockSpan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/Stackz/ValidParen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/Stackz/ValidParen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/String/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/String/Anagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/String/Compare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/String/Compare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/String/EquelCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/String/EquelCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/String/GroupAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/String/GroupAnagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/String/PalinDrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/String/PalinDrom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/String/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/String/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/String/TextJustification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/String/TextJustification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/TwoPointer/ContainerWaterMost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/TwoPointer/ContainerWaterMost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/TwoPointer/TappingRain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/TwoPointer/TappingRain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DsXXAlgo/TwoPointer/TappingRain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DS_ALGO/TwoPointer/TappingRain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/confusion/StaticCheck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Toptal/CountMissingTags.java" beforeDir="false" />
-    </list>
+    <list default="true" id="42d0df1d-343c-4066-bb6c-a53f8b212f19" name="Changes" comment="read write lock" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -613,6 +478,7 @@
       <workItem from="1754419127995" duration="7000" />
       <workItem from="1754419142600" duration="6000" />
       <workItem from="1754419319886" duration="7000" />
+      <workItem from="1754941233358" duration="61000" />
     </task>
     <task id="LOCAL-00001" summary="oo">
       <option name="closed" value="true" />
@@ -886,7 +752,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753124309766</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="read write lock">
+      <option name="closed" value="true" />
+      <created>1754941266785</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1754941266785</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
