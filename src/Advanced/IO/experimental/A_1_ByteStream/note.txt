@@ -1,0 +1,11 @@
+📖 Refined Explanation: What is socket exactly:
+
+A socket is an OS-managed endpoint for network communication, identified by an IP address and port.
+
+When you open a socket in Java, the OS sets up buffers in kernel space and links them to your process.
+
+Data you write goes into the kernel buffer → network card → other machine.
+
+Data coming in from the network card goes into the kernel buffer → your InputStream.
+
+From your program’s point of view, it feels like reading/writing to a file stream.
