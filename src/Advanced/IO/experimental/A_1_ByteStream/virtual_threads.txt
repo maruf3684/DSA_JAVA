@@ -1,0 +1,69 @@
+1. Why non-blocking NIO was invented
+
+In classic Java (Thread), every thread is mapped to an OS thread.
+
+OS threads are heavy (big memory stack, expensive context switches).
+
+If you had 10,000 clients and used blocking IO, you needed ~10,000 OS threads → too expensive.
+
+That’s why Java introduced NIO non-blocking + Selector: one thread can handle thousands of sockets.
+
+
+
+2. What virtual threads change
+
+A virtual thread is not a real OS thread.
+
+It’s a lightweight thread managed by the JVM, scheduled onto a small pool of OS threads.
+
+They’re cheap to create (millions possible) and don’t hog resources like old threads.
+
+
+
+3. But wait… blocking calls?
+
+Yes, when a virtual thread does in.read() (a blocking IO call), it looks like it’s blocked.
+
+But under the hood:
+
+The JVM parks that virtual thread.
+
+The underlying OS thread is released back to the pool to run other virtual threads.
+
+When the IO is ready, the JVM resumes the virtual thread.
+
+So the blocking illusion is preserved, but the OS thread is never wasted.
+
+
+
+4. How this overcomes the “blocking problem”
+
+With platform threads: blocking IO = blocked OS thread = wasteful.
+
+With virtual threads: blocking IO = only the virtual thread is parked, OS thread goes free.
+
+That means you can write simple blocking-style code, but still scale to tens of thousands of connections, without needing NIO’s selectors.
+
+
+
+5. Analogy
+
+Old threads + blocking IO = 1 heavy waiter per table. If the customer isn’t ready, the waiter just stands there.
+
+NIO = 1 waiter for the whole restaurant, running around checking all tables. Efficient but complex.
+
+Virtual threads = many lightweight interns as waiters. If one has to wait, they just sit down (no cost), and the manager (JVM) reassigns the heavy lifting to others. You can afford thousands of them because they’re so cheap.
+
+
+
+
+6. So, is non-blocking NIO “obsolete”?
+
+For most apps → Virtual threads make blocking IO fine again (easy to program, scalable).
+
+For ultra-high-performance systems (low-latency trading, high-throughput servers) → Non-blocking NIO still matters because it gives finer control and avoids scheduler overhead.
+
+Many modern frameworks (like Netty) are still built on NIO, but new frameworks (like Loom-based servers) may just use virtual threads and blocking IO.
+
+✅ Bottom line:
+Virtual threads still block in IO logically, but the JVM makes that block cheap by releasing the OS thread underneath. This removes the old scalability problem of “blocking IO = too many threads.”
