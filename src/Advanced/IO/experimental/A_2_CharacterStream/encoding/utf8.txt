@@ -1,0 +1,13 @@
+3. How decoder knows boundaries
+
+When reading a byte:
+
+If it starts with 0, it’s a 1-byte character.
+
+If it starts with 110, expect 1 more byte.
+
+If it starts with 1110, expect 2 more bytes.
+
+If it starts with 11110, expect 3 more bytes.
+
+Continuation bytes are easy to spot because they always start with 10, so you never confuse them with a new character.
