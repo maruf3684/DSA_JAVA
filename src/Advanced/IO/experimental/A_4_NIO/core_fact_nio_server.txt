@@ -1,0 +1,36 @@
+🔹 The Core Fact
+
+In blocking I/O, your Java thread sits in read() or write() doing nothing while the OS kernel is already handling network packets
+Your thread is wasted — blocked, not processing anything else.
+In non-blocking I/O (Selector), your Java thread doesn’t block:
+It sleeps inside selector.select() until the OS tells it “hey, data is ready” or “socket can accept writes.”
+While sleeping, it doesn’t waste CPU and can serve many clients when woken up.
+
+So yes 👉 the method (Selector + non-blocking channels):
+stops wasting Java threads in the waiting/blocking state,
+while the OS kernel threads keep doing their normal job (packet handling, buffering).
+
+Time →
+┌─────────────────────────────────────────────┐
+│   OS Kernel (driver + TCP/IP stack)         │
+│   - Handles incoming packets                │
+│   - Copies data to kernel socket buffer     │
+└─────────────────────────────────────────────┘
+              ↑ (marks channel readable)
+
+┌─────────────────────────────────────────────┐
+│   Java Thread (Selector loop)               │
+│   - SLEEPING inside selector.select()       │
+│   - Woken when OS marks a channel ready     │
+│   - Copies kernel buffer → user buffer      │
+│   - Runs app logic                          │
+│   - Returns to selector (sleep again)       │
+└─────────────────────────────────────────────┘
+
+
+⚖️ Takeaway:
+
+The OS always uses CPU (it must process packets).
+The difference is:
+Blocking → your Java threads are stuck waiting.
+Non-blocking → your Java threads only wake for real work.

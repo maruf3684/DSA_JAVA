@@ -1,0 +1,130 @@
+                ┌──────────────────┐
+                │  Selector.open() │
+                └───────┬──────────┘
+                        │
+                        ▼
+        ┌───────────────────────────────────┐
+        │ Register channels with Selector   │
+        │ - ServerSocketChannel: OP_ACCEPT  │
+        │ - SocketChannel: OP_READ / WRITE  │
+        └────────────────┬──────────────────┘
+                         │
+                ┌────────▼─────────┐
+                │ selector.select() │   (wait for events)
+                └────────┬─────────┘
+                         │
+          ┌──────────────┼──────────────┐
+          │              │              │
+   ┌──────▼─────┐  ┌─────▼───────┐ ┌────▼──────┐
+   │ isAcceptable│  │ isReadable  │ │ isWritable│
+   └──────┬─────┘  └─────┬───────┘ └────┬──────┘
+          │              │              │
+   accept() client   read() data     write() data
+          │              │              │
+          ▼              ▼              ▼
+   register client   process msg    remove OP_WRITE
+   for OP_READ       maybe prepare  when done
+                     reply → add
+                     OP_WRITE
+
+
+
+[1] Client connects →
+    Key.isAcceptable() fires →
+    server.accept() → get SocketChannel →
+    register with OP_READ
+
+[2] Client sends data →
+    Key.isReadable() fires →
+    channel.read(buffer) →
+    process message →
+    if reply: add OP_WRITE
+
+[3] Selector wakes again →
+    Key.isWritable() fires →
+    channel.write(reply) →
+    once sent: remove OP_WRITE (keep OP_READ)
+
+
+🔹 Diagram: One Thread Serving Many Clients:
+
+
+
+                ┌──────────────────┐
+                │  Selector.open() │
+                └───────┬──────────┘
+                        │
+                        ▼
+        ┌─────────────────────────────────────────────┐
+        │ Register channels with the SAME Selector    │
+        │ - ServerSocketChannel (server): OP_ACCEPT   │
+        │ - SocketChannel A (client A): OP_READ/WRITE │
+        │ - SocketChannel B (client B): OP_READ/WRITE │
+        │ - SocketChannel C (client C): OP_READ/WRITE │
+        └────────────────┬────────────────────────────┘
+                         │
+                ┌────────▼─────────┐
+                │ selector.select() │   ← ONE THREAD blocks here
+                └────────┬─────────┘
+                         │
+                         │   selectedKeys() may contain MANY keys:
+                         │   { A:OP_READ, B:OP_READ, C:OP_WRITE, ... }
+                         │
+          ┌──────────────┼───────────────────────────────────────────┐
+          │              │                                           │
+   ┌──────▼─────┐  ┌─────▼────────┐                        ┌────────▼─────┐
+   │ isAcceptable│  │  isReadable  │                        │  isWritable  │
+   └──────┬─────┘  └─────┬────────┘                        └──────┬───────┘
+          │              │                                        │
+   accept() client  read() data from whichever key is ready       │
+          │              │                                        │
+          ▼              ▼                                        ▼
+   register new     process message; if you have a reply:   write() pending bytes
+   client for READ      add OP_WRITE for that client           (may take multiple writes)
+                        key.interestOps |= OP_WRITE
+                                                               when done sending:
+                                                               remove OP_WRITE for that client
+                                                               key.interestOps &= ~OP_WRITE
+
+
+
+STEPS:
+🔹 1. While Idle
+
+Your server thread is inside selector.select()
+The OS kernel is watching all sockets.
+Thread is blocked (sleeping) → no CPU used.
+CPU wakes it up only when an event occurs (e.g., client sends something, socket buffer has space to write).
+
+🔹 2. When Client Sends Data
+Client writes "Hello" over TCP.
+OS copies "Hello" into the server’s kernel socket buffer.
+The kernel marks the socket as readable.
+Selector sees this and wakes your thread.
+Now selector.select() returns, with a SelectionKey for that channel.
+Your thread executes channel.read(buffer):
+This copies data from the kernel buffer → Java ByteBuffer.
+Usually very fast (just a memory copy).
+So OS notifies, but your thread does the reading into your buffer.
+
+🔹 3. When Writing to a Client
+You asked: “Isn’t writing blocking?” → depends:
+SocketChannel is in non-blocking mode.
+That means:
+channel.write(buffer) returns immediately.
+It writes as many bytes as the OS send buffer can take right now.
+If not all bytes fit, it returns how many were written → you must handle the rest later.
+
+⚠️ Blocking mode vs Non-blocking mode:
+In blocking I/O: write() would wait until all bytes are sent (could block for ms/seconds).
+In non-blocking I/O (Selector): write() never blocks — it returns immediately. If the OS buffer is full, you just wait for an OP_WRITE event later.
+
+🔹 4. So is CPU used while writing?
+Yes, but only for copying data from your ByteBuffer into the OS send buffer.
+Once it’s copied, the OS takes over to actually deliver the data to the client over the network.
+Your thread is free again.
+
+✅ Summary:
+Idle → OS handles waiting, thread sleeps, no CPU.
+Read → OS notifies, thread copies + processes → CPU used.
+Write → thread copies data to OS buffer (non-blocking), then OS handles actual sending.
