@@ -1,0 +1,60 @@
+3. Selector
+
+A Selector allows a single thread to manage multiple channels (good for scalability).
+
+Used for non-blocking I/O (like handling thousands of connections with few threads).
+
+Works with SelectableChannel (like SocketChannel, ServerSocketChannel).
+
+Key operations:
+
+register() → register channel with selector for OP_READ, OP_WRITE, etc.
+
+select() → blocks until any channel is ready
+
+selectedKeys() → get ready channels
+
+Example:
+
+Selector selector = Selector.open();
+ServerSocketChannel serverChannel = ServerSocketChannel.open();
+serverChannel.bind(new InetSocketAddress(5000));
+serverChannel.configureBlocking(false);
+serverChannel.register(selector, SelectionKey.OP_ACCEPT);
+
+while (true) {
+    selector.select();
+    Set<SelectionKey> keys = selector.selectedKeys();
+    Iterator<SelectionKey> iter = keys.iterator();
+
+    while (iter.hasNext()) {
+        SelectionKey key = iter.next();
+        if (key.isAcceptable()) {
+            SocketChannel client = serverChannel.accept();
+            client.configureBlocking(false);
+            client.register(selector, SelectionKey.OP_READ);
+        } else if (key.isReadable()) {
+            SocketChannel client = (SocketChannel) key.channel();
+            ByteBuffer buffer = ByteBuffer.allocate(256);
+            client.read(buffer);
+            System.out.println("Received: " + new String(buffer.array()).trim());
+        }
+        iter.remove();
+    }
+}
+
+⚖️ Difference from Traditional I/O
+
+Blocking I/O (Stream):
+
+Each I/O request blocks the thread.
+
+Need many threads for many connections.
+
+NIO:
+
+Non-blocking I/O.
+
+Use fewer threads with Selector.
+
+More scalable (good for servers, like Netty, Kafka, Tomcat NIO mode).

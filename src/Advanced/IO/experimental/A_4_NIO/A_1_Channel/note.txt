@@ -1,0 +1,24 @@
+1. Channel
+
+Think of a Channel like a pipe for data.
+
+Similar to a Stream, but:
+
+Channels are bidirectional (can read & write, unlike streams which are usually one-way).
+
+Channels work with buffers, not directly with bytes/characters.
+
+Common implementations:
+
+FileChannel → for file I/O
+
+SocketChannel → for TCP sockets
+
+ServerSocketChannel → for listening TCP connections
+
+DatagramChannel → for UDP
+
+Example:
+
+RandomAccessFile file = new RandomAccessFile("data.txt", "rw");
+FileChannel channel = file.getChannel();

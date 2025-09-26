@@ -1,0 +1,170 @@
+2. Buffer
+
+A Buffer is where data is stored when reading/writing via channels.
+
+Buffers are typed: ByteBuffer, CharBuffer, IntBuffer, etc.
+
+Has three key properties:
+
+capacity → max size
+
+position → current read/write index
+
+limit → boundary for read/write
+
+Workflow:
+
+Write data into buffer → flip() → Read data → clear() or compact().
+
+Example:
+
+ByteBuffer buffer = ByteBuffer.allocate(1024);
+int bytesRead = channel.read(buffer);  // read into buffer
+buffer.flip(); // prepare to read
+while(buffer.hasRemaining()) {
+    System.out.print((char) buffer.get());
+}
+buffer.clear(); // ready for next read
+
+
+//////////////////////////////////////////
+
+Yes 👍 this is the most important part of understanding NIO Buffers. Let’s visualize how the position, limit, and capacity move when we use flip() and rewind().
+
+---------------------------------------------------
+🔑 Buffer Internals
+Every buffer has 3 main pointers:
+- capacity → fixed size (how many bytes it can hold)
+- position → where the next read/write happens
+- limit → boundary (cannot read/write beyond this)
+
+We imagine buffer as an array of slots with an arrow for position.
+---------------------------------------------------
+
+1) When writing into buffer
+ByteBuffer buffer = ByteBuffer.allocate(8);
+buffer.put((byte) 'A');
+buffer.put((byte) 'B');
+buffer.put((byte) 'C');
+
+📊 State after writing "ABC":
+[ A ][ B ][ C ][   ][   ][   ][   ][   ]
+              ^ position=3
+limit=8
+capacity=8
+
+- Position moved forward as we wrote data.
+- Limit is still at 8 (capacity).
+
+---------------------------------------------------
+
+2) After flip()
+buffer.flip();
+
+flip() does:
+- limit = position (set new read boundary).
+- position = 0 (go back to start for reading).
+
+📊 State:
+[ A ][ B ][ C ][   ][   ][   ][   ][   ]
+^ position=0
+limit=3
+capacity=8
+
+👉 Now we can read only 3 bytes (A, B, C).
+
+---------------------------------------------------
+
+3) Reading
+System.out.println((char) buffer.get()); // A
+System.out.println((char) buffer.get()); // B
+
+📊 State after 2 reads:
+[ A ][ B ][ C ][   ][   ][   ][   ][   ]
+                      ^ position=2
+limit=3
+capacity=8
+
+---------------------------------------------------
+
+4) rewind()
+buffer.rewind();
+
+rewind() does:
+- Reset position = 0.
+- limit stays the same.
+
+📊 State:
+[ A ][ B ][ C ][   ][   ][   ][   ][   ]
+^ position=0
+limit=3
+capacity=8
+
+👉 This allows us to re-read data from the buffer again (A, B, C) without rewriting into it.
+
+---------------------------------------------------
+
+5) clear()
+buffer.clear();
+
+clear() does:
+- position = 0
+- limit = capacity
+
+📊 State:
+[ A ][ B ][ C ][   ][   ][   ][   ][   ]
+^ position=0
+limit=8
+capacity=8
+
+👉 Looks like data is gone, but it’s still there — just marked as “ready to overwrite”.
+
+---------------------------------------------------
+
+✅ Quick analogy:
+- flip() = “I finished writing, now prepare to read what I wrote.”
+- rewind() = “Go back to the start of what I was reading/writing.”
+- clear() = “Forget old data, get ready to write new data.”
+
+---------------------------------------------------
+📝 Demo Program
+
+import java.nio.ByteBuffer;
+
+public class BufferFlipRewindDemo {
+    public static void main(String[] args) {
+        ByteBuffer buffer = ByteBuffer.allocate(8);
+
+        // Step 1: Write into buffer
+        buffer.put((byte) 'A');
+        buffer.put((byte) 'B');
+        buffer.put((byte) 'C');
+        printState("After writing ABC", buffer);
+
+        // Step 2: Flip
+        buffer.flip();
+        printState("After flip()", buffer);
+
+        // Step 3: Read 2 chars
+        System.out.println("Read: " + (char) buffer.get());
+        System.out.println("Read: " + (char) buffer.get());
+        printState("After reading 2 chars", buffer);
+
+        // Step 4: Rewind
+        buffer.rewind();
+        printState("After rewind()", buffer);
+
+        // Step 5: Clear
+        buffer.clear();
+        printState("After clear()", buffer);
+    }
+
+    private static void printState(String action, ByteBuffer buffer) {
+        System.out.println("\n--- " + action + " ---");
+        System.out.println("position=" + buffer.position()
+                         + ", limit=" + buffer.limit()
+                         + ", capacity=" + buffer.capacity());
+    }
+}
+
+---------------------------------------------------
